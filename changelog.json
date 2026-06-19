@@ -1,0 +1,1507 @@
+[
+  {
+    "tag": "v0.6.1",
+    "channel": "beta",
+    "date": "June 19, 2026",
+    "ref": "2047bdd",
+    "summary": "update toast, log access, and a multi-version changelog digest",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "06a3653",
+        "scope": "update",
+        "msg": "update toast, log access, and a multi-version changelog digest"
+      },
+      {
+        "type": "feat",
+        "hash": "7d40ac5",
+        "scope": "review",
+        "msg": "inline review comments → send to agent (+ annotate popup)"
+      },
+      {
+        "type": "chore",
+        "hash": "7ba67b8",
+        "scope": "landing",
+        "msg": "changelog for v0.6.0 [skip ci]"
+      }
+    ]
+  },
+  {
+    "tag": "v0.6.0",
+    "channel": "beta",
+    "date": "June 19, 2026",
+    "ref": "0049adb",
+    "summary": "changelog for v0.5.0 [skip ci]",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "285fad7",
+        "scope": "landing",
+        "msg": "changelog for v0.5.0 [skip ci]"
+      }
+    ]
+  },
+  {
+    "tag": "v0.5.0",
+    "channel": "beta",
+    "date": "June 17, 2026",
+    "ref": "1248eb9",
+    "summary": "annotate-on-diff + fix freeze, commit toggle, single-commit diff",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "b7f04c3",
+        "scope": "git",
+        "msg": "annotate-on-diff + fix freeze, commit toggle, single-commit diff"
+      },
+      {
+        "type": "feat",
+        "hash": "d83164c",
+        "scope": "git",
+        "msg": "full-file diffs + per-side & working-tree blame"
+      },
+      {
+        "type": "fix",
+        "hash": "99d8d1c",
+        "scope": "diff",
+        "msg": "stop the UI freeze on diffs with many long lines"
+      },
+      {
+        "type": "fix",
+        "hash": "536485d",
+        "scope": "git",
+        "msg": "opening a commit/range now switches the agent pane into diff view"
+      },
+      {
+        "type": "fix",
+        "hash": "d5b27fe",
+        "scope": "diff",
+        "msg": "unfreeze diff opened from a commit + trim its backend latency"
+      },
+      {
+        "type": "perf",
+        "hash": "d520ba4",
+        "scope": "diff",
+        "msg": "yield before heavy MergeView build so the diff panel can't freeze the UI"
+      },
+      {
+        "type": "perf",
+        "hash": "e911e51",
+        "scope": "git",
+        "msg": "fast file_history via blob-OID compare + pathspec diff"
+      },
+      {
+        "type": "test",
+        "hash": "6cf8ac1",
+        "scope": "git",
+        "msg": "fix store spec setup (runInInjectionContext, matches project pattern)"
+      },
+      {
+        "type": "chore",
+        "hash": "23c236c",
+        "scope": "git",
+        "msg": "allowlist file-blame code-viewer line metrics (scanner 0)"
+      },
+      {
+        "type": "fix",
+        "hash": "9690e12",
+        "scope": "git",
+        "msg": "build errors from the parallel port (key binding, private field, null color, ngTemplateOutlet)"
+      },
+      {
+        "type": "feat",
+        "hash": "ce3eb14",
+        "scope": "git",
+        "msg": "wire git-inspection views into agent diff pane (gitView dispatcher)"
+      },
+      {
+        "type": "feat",
+        "hash": "6419194",
+        "scope": "git",
+        "msg": "commit-diff, range-diff, diff-or-blame, file-list views"
+      },
+      {
+        "type": "feat",
+        "hash": "04794d1",
+        "scope": "git",
+        "msg": "commit-history panel, virtualized blame, file-history view"
+      },
+      {
+        "type": "feat",
+        "hash": "8bb5101",
+        "scope": "git",
+        "msg": "backend inspection ops + frontend foundation (store/models/atoms/commands)"
+      },
+      {
+        "type": "docs",
+        "hash": "9110008",
+        "scope": "plans",
+        "msg": "git inspection phase 1 (read-only) plan + design reference"
+      },
+      {
+        "type": "docs",
+        "hash": "4180d9d",
+        "scope": "specs",
+        "msg": "human-driven git inspection & operations design"
+      },
+      {
+        "type": "feat",
+        "hash": "a3b022b",
+        "scope": "landing",
+        "msg": "sync console mock with the new top-bar design"
+      },
+      {
+        "type": "fix",
+        "hash": "7980f7b",
+        "scope": "landing",
+        "msg": "stop the console mock being clipped on the right"
+      },
+      {
+        "type": "fix",
+        "hash": "860dd38",
+        "scope": "changelog",
+        "msg": "tag releases as beta, not dev"
+      },
+      {
+        "type": "feat",
+        "hash": "6c2b524",
+        "scope": "landing",
+        "msg": "version labels track the latest release (client-side)"
+      },
+      {
+        "type": "chore",
+        "hash": "27e6582",
+        "scope": "landing",
+        "msg": "changelog for v0.4.1 [skip ci]"
+      }
+    ]
+  },
+  {
+    "tag": "v0.4.1",
+    "channel": "beta",
+    "date": "June 16, 2026",
+    "ref": "ebcb274",
+    "summary": "bake changelog into the release flow + harden landing 401",
+    "commits": [
+      {
+        "type": "ci",
+        "hash": "4f477a2",
+        "scope": "release",
+        "msg": "bake changelog into the release flow + harden landing 401"
+      }
+    ]
+  },
+  {
+    "tag": "v0.4.0",
+    "channel": "beta",
+    "date": "June 16, 2026",
+    "ref": "59bbefb",
+    "summary": "literal scanner + unit tests",
+    "commits": [
+      {
+        "type": "ci",
+        "hash": "f4ef505",
+        "scope": "landing",
+        "msg": "redeploy landing after a successful release"
+      },
+      {
+        "type": "chore",
+        "hash": "b9c0ae6",
+        "scope": "",
+        "msg": "gitignore playwright e2e artifacts"
+      },
+      {
+        "type": "docs",
+        "hash": "0106345",
+        "scope": "",
+        "msg": "document density token engine + shape rule"
+      },
+      {
+        "type": "test",
+        "hash": "5bc6574",
+        "scope": "density",
+        "msg": "enforce zero literals in CI"
+      },
+      {
+        "type": "test",
+        "hash": "ffd6c27",
+        "scope": "density",
+        "msg": "e2e proving density drives spacing/height + shapes stay square"
+      },
+      {
+        "type": "refactor",
+        "hash": "3872af6",
+        "scope": "density",
+        "msg": "tokens in remaining modals"
+      },
+      {
+        "type": "refactor",
+        "hash": "71b5e35",
+        "scope": "density",
+        "msg": "tokens in settings-modal"
+      },
+      {
+        "type": "refactor",
+        "hash": "63ddf53",
+        "scope": "density",
+        "msg": "tokens in workspace"
+      },
+      {
+        "type": "refactor",
+        "hash": "c908c43",
+        "scope": "density",
+        "msg": "tokens in dev-tools"
+      },
+      {
+        "type": "refactor",
+        "hash": "f90c531",
+        "scope": "density",
+        "msg": "tokens in backlog"
+      },
+      {
+        "type": "docs",
+        "hash": "6aefb50",
+        "scope": "density",
+        "msg": "add SHAPE RULE to sweep procedure"
+      },
+      {
+        "type": "fix",
+        "hash": "b0c121a",
+        "scope": "density",
+        "msg": "preserve circle/square shapes + fix shell grid gap"
+      },
+      {
+        "type": "refactor",
+        "hash": "d2640d1",
+        "scope": "density",
+        "msg": "tokens in right-panel"
+      },
+      {
+        "type": "refactor",
+        "hash": "035a326",
+        "scope": "density",
+        "msg": "tokens in sidebar"
+      },
+      {
+        "type": "chore",
+        "hash": "478e6d9",
+        "scope": "",
+        "msg": "@ feat(backlog): snake_case ticket tags + factorized top-bar action pill"
+      },
+      {
+        "type": "refactor",
+        "hash": "001cc3b",
+        "scope": "density",
+        "msg": "tokens in overview"
+      },
+      {
+        "type": "refactor",
+        "hash": "ed52ca1",
+        "scope": "density",
+        "msg": "tokens in notifications"
+      },
+      {
+        "type": "refactor",
+        "hash": "ba83c55",
+        "scope": "density",
+        "msg": "tokens in shared components"
+      },
+      {
+        "type": "refactor",
+        "hash": "dbed20e",
+        "scope": "density",
+        "msg": "tokens in top-bar"
+      },
+      {
+        "type": "refactor",
+        "hash": "626cd42",
+        "scope": "density",
+        "msg": "tokens in tweaks panel"
+      },
+      {
+        "type": "chore",
+        "hash": "c3d488f",
+        "scope": "",
+        "msg": "@ feat(agents): forward selected model + reasoning effort to the CLI"
+      },
+      {
+        "type": "docs",
+        "hash": "4806561",
+        "scope": "plans",
+        "msg": "density-driven CSS variables implementation plan"
+      },
+      {
+        "type": "docs",
+        "hash": "3ec23f4",
+        "scope": "specs",
+        "msg": "density-driven CSS variables design"
+      },
+      {
+        "type": "refactor",
+        "hash": "f45d01d",
+        "scope": "density",
+        "msg": "tokens in status-bar"
+      },
+      {
+        "type": "fix",
+        "hash": "56531bc",
+        "scope": "density",
+        "msg": "extend spacing scale (sp-10/sp-11); margins use sp-*, not ctl-h"
+      },
+      {
+        "type": "refactor",
+        "hash": "ab5a411",
+        "scope": "density",
+        "msg": "tokens in shell/context-menu/loading"
+      },
+      {
+        "type": "refactor",
+        "hash": "1df6d92",
+        "scope": "density",
+        "msg": "tokens in styles.css atoms"
+      },
+      {
+        "type": "feat",
+        "hash": "e5289ab",
+        "scope": "density",
+        "msg": "literal scanner + unit tests"
+      },
+      {
+        "type": "test",
+        "hash": "3f55464",
+        "scope": "density",
+        "msg": "assert token engine structure"
+      },
+      {
+        "type": "docs",
+        "hash": "7fa3cfe",
+        "scope": "density",
+        "msg": "resolve --hair collision (color, not width token)"
+      },
+      {
+        "type": "feat",
+        "hash": "2885bb8",
+        "scope": "density",
+        "msg": "add density-factor token engine (spacing/height/type scale)"
+      },
+      {
+        "type": "docs",
+        "hash": "7835e16",
+        "scope": "plans",
+        "msg": "density-driven CSS variables implementation plan"
+      },
+      {
+        "type": "docs",
+        "hash": "6c04ff8",
+        "scope": "specs",
+        "msg": "density-driven CSS variables design"
+      }
+    ]
+  },
+  {
+    "tag": "v0.3.2",
+    "channel": "beta",
+    "date": "June 16, 2026",
+    "ref": "5cd8de1",
+    "summary": "open the main window at 80% of the current monitor",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "00ad677",
+        "scope": "window",
+        "msg": "open the main window at 80% of the current monitor"
+      }
+    ]
+  },
+  {
+    "tag": "v0.3.1",
+    "channel": "beta",
+    "date": "June 15, 2026",
+    "ref": "4b03d52",
+    "summary": "runtime detection + manual executable paths with verify",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "2009515",
+        "scope": "agents",
+        "msg": "runtime detection + manual executable paths with verify"
+      }
+    ]
+  },
+  {
+    "tag": "v0.3.0",
+    "channel": "beta",
+    "date": "June 15, 2026",
+    "ref": "86fa15c",
+    "summary": "ticket board with rich-text notes/comments + agent dispatch",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "674242e",
+        "scope": "ci",
+        "msg": "bump CI pnpm to 11 to match local + document build approvals"
+      },
+      {
+        "type": "feat",
+        "hash": "7e759b0",
+        "scope": "backlog",
+        "msg": "ticket board with rich-text notes/comments + agent dispatch"
+      },
+      {
+        "type": "ci",
+        "hash": "989cfab",
+        "scope": "landing",
+        "msg": "harden publish-changelog against input shell injection"
+      },
+      {
+        "type": "ci",
+        "hash": "e2a30b3",
+        "scope": "landing",
+        "msg": "manual publish-changelog workflow (bake + commit + deploy)"
+      },
+      {
+        "type": "feat",
+        "hash": "5c3870a",
+        "scope": "landing",
+        "msg": "generator main() — GitHub API fetch + bake into changelog"
+      },
+      {
+        "type": "feat",
+        "hash": "a1b33f8",
+        "scope": "landing",
+        "msg": "changelog generator pure helpers + tests"
+      },
+      {
+        "type": "feat",
+        "hash": "ada0512",
+        "scope": "landing",
+        "msg": "client-side load-more pagination on changelog"
+      },
+      {
+        "type": "refactor",
+        "hash": "e53eaf7",
+        "scope": "landing",
+        "msg": "changelog RELEASES -> marker-delimited JSON region"
+      },
+      {
+        "type": "docs",
+        "hash": "c87456f",
+        "scope": "landing",
+        "msg": "implementation plan — changelog generation + load-more"
+      },
+      {
+        "type": "docs",
+        "hash": "f8d996d",
+        "scope": "landing",
+        "msg": "spec — build-time changelog generation + load-more"
+      },
+      {
+        "type": "feat",
+        "hash": "309a775",
+        "scope": "landing",
+        "msg": "Orrery Home landing page + changelog from design handoff"
+      },
+      {
+        "type": "chore",
+        "hash": "2a626c4",
+        "scope": "",
+        "msg": "pnpm build approvals (workspace) + project RTK instructions"
+      },
+      {
+        "type": "feat",
+        "hash": "54df51e",
+        "scope": "workspace",
+        "msg": "move open-file tabs inline beside the diff/terminal toggle"
+      },
+      {
+        "type": "feat",
+        "hash": "2b9e4dd",
+        "scope": "landing",
+        "msg": "animated landing page + Render blueprint & landing-only deploy"
+      },
+      {
+        "type": "feat",
+        "hash": "7a8fc89",
+        "scope": "workspace",
+        "msg": "read-only file-view pane tab + pane-model wiring"
+      }
+    ]
+  },
+  {
+    "tag": "v0.2.5",
+    "channel": "beta",
+    "date": "June 11, 2026",
+    "ref": "7de96c2",
+    "summary": "Orrery v0.2.5",
+    "commits": []
+  },
+  {
+    "tag": "v0.2.4",
+    "channel": "beta",
+    "date": "June 11, 2026",
+    "ref": "d47d2a3",
+    "summary": "branded update banner — orrery-updater stub, silent MSI/NSIS",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "c99dfd1",
+        "scope": "updater",
+        "msg": "branded update banner — orrery-updater stub, silent MSI/NSIS"
+      }
+    ]
+  },
+  {
+    "tag": "v0.2.3",
+    "channel": "beta",
+    "date": "June 11, 2026",
+    "ref": "61d570a",
+    "summary": "node24-ready action majors; node 22",
+    "commits": [
+      {
+        "type": "ci",
+        "hash": "2334098",
+        "scope": "release",
+        "msg": "node24-ready action majors; node 22"
+      }
+    ]
+  },
+  {
+    "tag": "v0.2.2",
+    "channel": "beta",
+    "date": "June 11, 2026",
+    "ref": "c257bca",
+    "summary": "auto-install by default + visible install progress",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "d2894d1",
+        "scope": "updater",
+        "msg": "auto-install by default + visible install progress"
+      }
+    ]
+  },
+  {
+    "tag": "v0.2.1",
+    "channel": "beta",
+    "date": "June 11, 2026",
+    "ref": "5d35930",
+    "summary": "per-user MSI — no admin, no UAC, runas mode removed",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "e5aa6c6",
+        "scope": "installer",
+        "msg": "per-user MSI — no admin, no UAC, runas mode removed"
+      },
+      {
+        "type": "fix",
+        "hash": "52ac350",
+        "scope": "ui",
+        "msg": "pane content scrolls/wraps instead of forcing layout width"
+      }
+    ]
+  },
+  {
+    "tag": "v0.2.0",
+    "channel": "beta",
+    "date": "June 10, 2026",
+    "ref": "3994e9d",
+    "summary": "bump select in CI dispatch + auto release notes",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "15a8b74",
+        "scope": "release",
+        "msg": "bump select in CI dispatch + auto release notes"
+      },
+      {
+        "type": "feat",
+        "hash": "c9d50e1",
+        "scope": "release",
+        "msg": "one-word release flow + version sync to 0.1.17"
+      },
+      {
+        "type": "feat",
+        "hash": "38d05aa",
+        "scope": "settings",
+        "msg": "test-notification play button on the Cue & volume row"
+      },
+      {
+        "type": "fix",
+        "hash": "c5ed7d4",
+        "scope": "settings",
+        "msg": "quality-review fixes — flush, confirm leak, dead alias, sound priming"
+      },
+      {
+        "type": "feat",
+        "hash": "93a1595",
+        "scope": "settings",
+        "msg": "consumers — spawn prefill, auto-resume, notification gating + native toasts, sound cues"
+      },
+      {
+        "type": "fix",
+        "hash": "461ff57",
+        "scope": "settings,updater",
+        "msg": "design-contract defaults; channel-aware install; notes link"
+      },
+      {
+        "type": "feat",
+        "hash": "264ebde",
+        "scope": "settings",
+        "msg": "settings modal + store + channel-aware update flow"
+      },
+      {
+        "type": "feat",
+        "hash": "c3b5221",
+        "scope": "settings",
+        "msg": "persisted settings core, branch template, policy flags, channel updater"
+      },
+      {
+        "type": "feat",
+        "hash": "874689c",
+        "scope": "dev-panel",
+        "msg": "Resources tab from the ORCHESTRA design; everything in prod"
+      },
+      {
+        "type": "fix",
+        "hash": "1426139",
+        "scope": "workspace",
+        "msg": "honor explicit pane view when reusing an agent tab"
+      },
+      {
+        "type": "docs",
+        "hash": "53c8f80",
+        "scope": "perf",
+        "msg": "scale-independence plan + analysis, marked implemented"
+      },
+      {
+        "type": "fix",
+        "hash": "3422a06",
+        "scope": "agents,terminal",
+        "msg": "park tick on failed start; exit-path guards; focus edge cases"
+      },
+      {
+        "type": "fix",
+        "hash": "dccb08f",
+        "scope": "agents",
+        "msg": "keep whole escape at ring trim seam; drop dead alias"
+      },
+      {
+        "type": "fix",
+        "hash": "d6dc66e",
+        "scope": "agents,terminal",
+        "msg": "park idle tick timer; focus dedup retry on failure"
+      },
+      {
+        "type": "perf",
+        "hash": "dfd318d",
+        "scope": "agents",
+        "msg": "clock out of runtime state; stable agents identity"
+      },
+      {
+        "type": "fix",
+        "hash": "25e29bb",
+        "scope": "agents",
+        "msg": "unicode/escape-safe ring trim; code-unit cap naming"
+      },
+      {
+        "type": "perf",
+        "hash": "9336c2a",
+        "scope": "runtime",
+        "msg": "focus-aware mux cadence"
+      },
+      {
+        "type": "test",
+        "hash": "d00dfec",
+        "scope": "mux",
+        "msg": "deflake flood pacing under parallel load"
+      },
+      {
+        "type": "perf",
+        "hash": "4ed094b",
+        "scope": "agents",
+        "msg": "lazy pty tail folding from raw ring"
+      },
+      {
+        "type": "fix",
+        "hash": "6116e0a",
+        "scope": "runtime",
+        "msg": "per-agent pty locks; map lock never held across I/O"
+      },
+      {
+        "type": "fix",
+        "hash": "f6a8151",
+        "scope": "dev-panel",
+        "msg": "real signal + effect for stats gate; typecheck-covered spec"
+      },
+      {
+        "type": "fix",
+        "hash": "cb89456",
+        "scope": "runtime",
+        "msg": "exit force-drain waits for in-flight mux frame"
+      },
+      {
+        "type": "perf",
+        "hash": "7463f1f",
+        "scope": "runtime",
+        "msg": "multiplex PTY output into one emit per frame"
+      },
+      {
+        "type": "perf",
+        "hash": "f2757f4",
+        "scope": "terminal",
+        "msg": "gate scheduler stats behind dev panel"
+      },
+      {
+        "type": "perf",
+        "hash": "a04eb63",
+        "scope": "utils",
+        "msg": "tokenize pty tail in runs, not chars"
+      },
+      {
+        "type": "refactor",
+        "hash": "abd097f",
+        "scope": "perf",
+        "msg": "drop dead record_volume; window errPct"
+      },
+      {
+        "type": "test",
+        "hash": "33dce79",
+        "scope": "metrics",
+        "msg": "extract sweep predicate; fix discovery-lag doc"
+      },
+      {
+        "type": "fix",
+        "hash": "75e4e58",
+        "scope": "perf-smoke",
+        "msg": "strict flag parsing, errPct guard, portable docs"
+      },
+      {
+        "type": "perf",
+        "hash": "db369c1",
+        "scope": "metrics,cost",
+        "msg": "warm shared sampler, scoped pids, ccusage dedupe"
+      },
+      {
+        "type": "feat",
+        "hash": "e3dc039",
+        "scope": "perf",
+        "msg": "windowed truth + ui-thread/longtask probes"
+      },
+      {
+        "type": "feat",
+        "hash": "f2c1b7a",
+        "scope": "perf",
+        "msg": "standalone perf-smoke load harness"
+      },
+      {
+        "type": "perf",
+        "hash": "d558982",
+        "scope": "loops",
+        "msg": "adaptive metrics cadence + 5-minute cost cycle"
+      },
+      {
+        "type": "feat",
+        "hash": "ec7861f",
+        "scope": "perf",
+        "msg": "time the metrics/cost push loops"
+      },
+      {
+        "type": "fix",
+        "hash": "781fe1e",
+        "scope": "diff-view",
+        "msg": "stop refetching agent_diff on runtime identity churn"
+      },
+      {
+        "type": "feat",
+        "hash": "df6b564",
+        "scope": "perf",
+        "msg": "exact rates + byte throughput for batched PTY emits"
+      },
+      {
+        "type": "fix",
+        "hash": "433444f",
+        "scope": "agents",
+        "msg": "restore optimistic refresh after explicit commit/discard"
+      },
+      {
+        "type": "fix",
+        "hash": "31cb108",
+        "scope": "watch",
+        "msg": "ignore transient git metadata churn (locks, reflogs, objects)"
+      },
+      {
+        "type": "docs",
+        "hash": "4953d3e",
+        "scope": "styles",
+        "msg": "correct stale FAB z-index in shell stacking comment"
+      },
+      {
+        "type": "fix",
+        "hash": "253d378",
+        "scope": "status-bar",
+        "msg": "lift cpu/mem popover above the bottom anchor rail"
+      },
+      {
+        "type": "fix",
+        "hash": "e892333",
+        "scope": "perf",
+        "msg": "harden push pipeline edges from final review"
+      },
+      {
+        "type": "docs",
+        "hash": "9977ff8",
+        "scope": "perf",
+        "msg": "mark roadmap phase-1 + push-scans done"
+      },
+      {
+        "type": "feat",
+        "hash": "c659933",
+        "scope": "perf",
+        "msg": "rate backend-only rows from exec aggregates; time watcher scans"
+      },
+      {
+        "type": "feat",
+        "hash": "59ea77e",
+        "scope": "dev-panel",
+        "msg": "terminal scheduler counters in perf footer"
+      },
+      {
+        "type": "perf",
+        "hash": "bcf9933",
+        "scope": "agents",
+        "msg": "coalesce liveLogs tail updates to one publish per 80ms"
+      },
+      {
+        "type": "feat",
+        "hash": "2ffa193",
+        "scope": "terminal",
+        "msg": "route writes through scheduler; per-agent revision signals"
+      },
+      {
+        "type": "feat",
+        "hash": "1caf775",
+        "scope": "terminal",
+        "msg": "shared write scheduler with lossy hidden cap"
+      },
+      {
+        "type": "feat",
+        "hash": "b8d0d3b",
+        "scope": "runtime",
+        "msg": "batch PTY output before IPC with byte seq"
+      },
+      {
+        "type": "feat",
+        "hash": "3cd2289",
+        "scope": "runtime",
+        "msg": "UTF-8-safe PTY output batcher core"
+      },
+      {
+        "type": "feat",
+        "hash": "6d6f1f7",
+        "scope": "agents",
+        "msg": "consume scan pushes; drop eager and post-action pulls"
+      },
+      {
+        "type": "feat",
+        "hash": "1d77e03",
+        "scope": "work-store",
+        "msg": "adopt backend scan pushes (applyScan)"
+      },
+      {
+        "type": "feat",
+        "hash": "6161be0",
+        "scope": "watch",
+        "msg": "push scan results; watch gitdir so agent commits refresh"
+      },
+      {
+        "type": "feat",
+        "hash": "b937766",
+        "scope": "git",
+        "msg": "head_oid + agent worktree scan source"
+      },
+      {
+        "type": "feat",
+        "hash": "3fdd9db",
+        "scope": "watch",
+        "msg": "scan loop with fingerprint suppression"
+      },
+      {
+        "type": "docs",
+        "hash": "b7736eb",
+        "scope": "perf",
+        "msg": "roadmap + push-based git scans and PTY pipeline plans"
+      },
+      {
+        "type": "fix",
+        "hash": "9c8ad18",
+        "scope": "updater",
+        "msg": "hide the MSI relauncher console"
+      },
+      {
+        "type": "feat",
+        "hash": "602b829",
+        "scope": "proc",
+        "msg": "single spawn facade + clippy ban on raw Command::new"
+      },
+      {
+        "type": "feat",
+        "hash": "577dbcb",
+        "scope": "perf",
+        "msg": "ship the DevConsole perf panel in production builds"
+      },
+      {
+        "type": "docs",
+        "hash": "7eecb43",
+        "scope": "perf",
+        "msg": "after-fix capture - startup collapse, lazy loads, exec/overhead columns live"
+      },
+      {
+        "type": "style",
+        "hash": "949b7e8",
+        "scope": "rust",
+        "msg": "repo-wide cargo fmt"
+      },
+      {
+        "type": "feat",
+        "hash": "d35e2ac",
+        "scope": "perf",
+        "msg": "Rust exec timing - perf::timed wrappers + perf://stats push into PerfStore"
+      },
+      {
+        "type": "refactor",
+        "hash": "ee619fe",
+        "scope": "ui",
+        "msg": "consumers read AgentWorkStore maps; Agent drops git transients; Load more commits"
+      },
+      {
+        "type": "refactor",
+        "hash": "ca3af81",
+        "scope": "runtime",
+        "msg": "startup scans -> AgentWorkStore; lazy tree/commits on agent open"
+      },
+      {
+        "type": "feat",
+        "hash": "0fdbaf2",
+        "scope": "stores",
+        "msg": "AgentWorkStore - per-agent Loadable maps for changes/commits/tree"
+      },
+      {
+        "type": "perf",
+        "hash": "dc7635f",
+        "scope": "commands",
+        "msg": "heavy git/fs/process commands on the blocking pool (spawn_blocking)"
+      },
+      {
+        "type": "feat",
+        "hash": "02b146b",
+        "scope": "commits",
+        "msg": "offset paging param through agent_commits"
+      },
+      {
+        "type": "perf",
+        "hash": "69bb455",
+        "scope": "git",
+        "msg": "files count via deltas (no .stats() blob diffs) + offset paging in log()"
+      },
+      {
+        "type": "perf",
+        "hash": "57f6fc6",
+        "scope": "commands",
+        "msg": "run all sync commands off the main thread via #[tauri::command(async)]"
+      },
+      {
+        "type": "docs",
+        "hash": "61e69f9",
+        "scope": "perf",
+        "msg": "global-fix design spec + implementation plan"
+      },
+      {
+        "type": "docs",
+        "hash": "1534486",
+        "scope": "perf",
+        "msg": "bottleneck investigation report from first perf-panel capture"
+      },
+      {
+        "type": "feat",
+        "hash": "f6ba536",
+        "scope": "perf",
+        "msg": "copy perf aggregates as JSON for bottleneck analysis"
+      },
+      {
+        "type": "refactor",
+        "hash": "e89b8af",
+        "scope": "shell",
+        "msg": "reflow floating FABs via .anchor-rail flex container"
+      },
+      {
+        "type": "feat",
+        "hash": "3e8c756",
+        "scope": "tweaks",
+        "msg": "match the DevConsole FAB + panel theme"
+      },
+      {
+        "type": "feat",
+        "hash": "57a2e75",
+        "scope": "devtools",
+        "msg": "perf panel polish — idle persistence, scroll, collapsible feed"
+      },
+      {
+        "type": "feat",
+        "hash": "09b6d94",
+        "scope": "devtools",
+        "msg": "DevConsole with live Perf panel (Approach B design)"
+      },
+      {
+        "type": "feat",
+        "hash": "b9921b2",
+        "scope": "perf",
+        "msg": "PerfStore + InstrumentedBridge for command round-trip metrics"
+      },
+      {
+        "type": "docs",
+        "hash": "8148aa4",
+        "scope": "perf",
+        "msg": "design spec for command performance tracing (approach B)"
+      },
+      {
+        "type": "fix",
+        "hash": "ba8351c",
+        "scope": "updater",
+        "msg": "surface UAC + survive job-close in the MSI relauncher"
+      },
+      {
+        "type": "fix",
+        "hash": "156dc3f",
+        "scope": "updater",
+        "msg": "log the install path + retryable timestamp loop-guard"
+      },
+      {
+        "type": "feat",
+        "hash": "afd1707",
+        "scope": "updater",
+        "msg": "elevated per-machine MSI updates to fix the update loop"
+      },
+      {
+        "type": "fix",
+        "hash": "fc51dc6",
+        "scope": "runtime",
+        "msg": "resolve agent argv[0] on Windows to dodge portable-pty error 193"
+      },
+      {
+        "type": "fix",
+        "hash": "c236ef8",
+        "scope": "bundle",
+        "msg": "pin WiX upgradeCode so MSI updates upgrade in place"
+      },
+      {
+        "type": "fix",
+        "hash": "685f274",
+        "scope": "updater",
+        "msg": "loop guard against a non-advancing update"
+      },
+      {
+        "type": "fix",
+        "hash": "6f74738",
+        "scope": "release",
+        "msg": "publish both NSIS and MSI updater entries"
+      },
+      {
+        "type": "feat",
+        "hash": "7d18db1",
+        "scope": "version",
+        "msg": "app version + DEV/BETA channel tag by the logo and in the footer"
+      },
+      {
+        "type": "fix",
+        "hash": "8522209",
+        "scope": "updater",
+        "msg": "skip update check in dev mode"
+      },
+      {
+        "type": "fix",
+        "hash": "4849330",
+        "scope": "release",
+        "msg": "stamp version on Windows; bump to 0.1.1"
+      },
+      {
+        "type": "fix",
+        "hash": "ef6df64",
+        "scope": "proc",
+        "msg": "hide flashing console window for Windows shell-outs"
+      },
+      {
+        "type": "feat",
+        "hash": "f69a537",
+        "scope": "icon",
+        "msg": "enlarge the Epicycle glyph to ~75% of the icon radius"
+      },
+      {
+        "type": "feat",
+        "hash": "f85e376",
+        "scope": "window",
+        "msg": "theme-aware taskbar/window icon via set_icon"
+      },
+      {
+        "type": "feat",
+        "hash": "96d6daa",
+        "scope": "logo",
+        "msg": "theme-aware app-icon tile (dark grad / light) by theme toggle"
+      },
+      {
+        "type": "fix",
+        "hash": "1f21481",
+        "scope": "loading",
+        "msg": "track download progress reactively, not via intro rAF"
+      },
+      {
+        "type": "feat",
+        "hash": "2f3bbc5",
+        "scope": "tauri",
+        "msg": "updater endpoint + pubkey, createUpdaterArtifacts"
+      },
+      {
+        "type": "feat",
+        "hash": "d8d3461",
+        "scope": "tauri",
+        "msg": "register updater + process plugins and permissions"
+      },
+      {
+        "type": "test",
+        "hash": "d95c547",
+        "scope": "",
+        "msg": "register Angular JIT compiler for vitest; fix transient status assertion"
+      },
+      {
+        "type": "feat",
+        "hash": "4961be5",
+        "scope": "boot",
+        "msg": "route through LoadingComponent; app-root is a router outlet"
+      },
+      {
+        "type": "feat",
+        "hash": "2ad9358",
+        "scope": "loading",
+        "msg": "routed loading screen hosting the updater flow"
+      },
+      {
+        "type": "feat",
+        "hash": "7b8bb96",
+        "scope": "updater",
+        "msg": "real Tauri updater/process adapter"
+      },
+      {
+        "type": "ci",
+        "hash": "53e7972",
+        "scope": "",
+        "msg": "manual Windows release workflow publishing to orrery-releases"
+      },
+      {
+        "type": "feat",
+        "hash": "f99d540",
+        "scope": "release",
+        "msg": "cross-repo latest.json builder"
+      },
+      {
+        "type": "feat",
+        "hash": "dd0023a",
+        "scope": "release",
+        "msg": "build-time version stamping script"
+      },
+      {
+        "type": "refactor",
+        "hash": "2ff91ef",
+        "scope": "shell",
+        "msg": "extract app shell into ShellComponent"
+      },
+      {
+        "type": "feat",
+        "hash": "cdda0a3",
+        "scope": "updater",
+        "msg": "launch-time update service over a mockable port"
+      },
+      {
+        "type": "docs",
+        "hash": "946414b",
+        "scope": "",
+        "msg": "implementation plan for release pipeline + updater"
+      },
+      {
+        "type": "feat",
+        "hash": "b21c38f",
+        "scope": "",
+        "msg": "borderless titlebar with window controls, Lucide icons, hook guard"
+      },
+      {
+        "type": "docs",
+        "hash": "6eea0f4",
+        "scope": "",
+        "msg": "extract boot splash into routed LoadingComponent"
+      },
+      {
+        "type": "docs",
+        "hash": "794c339",
+        "scope": "",
+        "msg": "spec for Windows release pipeline + auto-updater"
+      },
+      {
+        "type": "refactor",
+        "hash": "4fde5cc",
+        "scope": "",
+        "msg": "rename app katrix/orchestra → Orrery; flatten src/app"
+      },
+      {
+        "type": "feat",
+        "hash": "6e7767f",
+        "scope": "orchestra",
+        "msg": "tiling pane workspace, tab drag/grouping, compact sidebar, run controls, brand icons, CDN syntax highlighting"
+      },
+      {
+        "type": "fix",
+        "hash": "4210fae",
+        "scope": "workspace",
+        "msg": "theme-aware editor highlighting + terminal clipboard/search/re-theme"
+      },
+      {
+        "type": "feat",
+        "hash": "1d45b59",
+        "scope": "ui",
+        "msg": "file-viewer tab, syntax highlight + md preview, diff tree/flat + collapsible, moved-file rendering, word-level diff, terminal clipboard/search"
+      },
+      {
+        "type": "feat",
+        "hash": "d959aa9",
+        "scope": "git",
+        "msg": "detect moved files as one renamed (R) entry + file_diff old-path"
+      },
+      {
+        "type": "fix",
+        "hash": "6a20f43",
+        "scope": "watch",
+        "msg": "trailing-edge debounce so file moves refresh tree + diff"
+      },
+      {
+        "type": "chore",
+        "hash": "b2585e5",
+        "scope": "",
+        "msg": "gitignore scratch root screenshots"
+      },
+      {
+        "type": "feat",
+        "hash": "ce89545",
+        "scope": "ui",
+        "msg": "AI git-op buttons auto-start idle agents; clearer cost hover tooltip"
+      },
+      {
+        "type": "feat",
+        "hash": "35d82a7",
+        "scope": "agents",
+        "msg": "session-continuation dropdown on the agent card (claude --resume)"
+      },
+      {
+        "type": "feat",
+        "hash": "b562cd1",
+        "scope": "metrics",
+        "msg": "cpu/mem totals as sum of katrix+agent subtrees; ccusage cost in status bar"
+      },
+      {
+        "type": "feat",
+        "hash": "bdf8ec0",
+        "scope": "cost",
+        "msg": "CostSnapshot model + bridge event/command + CostStore"
+      },
+      {
+        "type": "feat",
+        "hash": "b2ce1d4",
+        "scope": "cost",
+        "msg": "ccusage total — parser, reader, system_cost cmd + 60s push loop"
+      },
+      {
+        "type": "feat",
+        "hash": "1e88768",
+        "scope": "git-tab",
+        "msg": "backend+AI split buttons (commit/push), AI rebase/merge; drop PR/auto-merge"
+      },
+      {
+        "type": "feat",
+        "hash": "d25915c",
+        "scope": "agents",
+        "msg": "agent_action (AI ops) + agent_push; remove risky agent_merge"
+      },
+      {
+        "type": "feat",
+        "hash": "19193ca",
+        "scope": "agents",
+        "msg": "completion-action prompts + git CLI push"
+      },
+      {
+        "type": "build",
+        "hash": "5904431",
+        "scope": "",
+        "msg": "pin ccusage for cost tracking"
+      },
+      {
+        "type": "docs",
+        "hash": "3995ff7",
+        "scope": "plans",
+        "msg": "implementation plans for completion ops + cost (TDD, per-feature)"
+      },
+      {
+        "type": "docs",
+        "hash": "6029763",
+        "scope": "specs",
+        "msg": "agent completion ops + ccusage cost design specs"
+      },
+      {
+        "type": "fix",
+        "hash": "42bb29f",
+        "scope": "git",
+        "msg": "list agent worktree commits in the git panel + merge-button overflow"
+      },
+      {
+        "type": "fix",
+        "hash": "597b59e",
+        "scope": "metrics",
+        "msg": "correct RAM totals, system cpu refresh, popover z-index"
+      },
+      {
+        "type": "refactor",
+        "hash": "7000713",
+        "scope": "agents",
+        "msg": "capture session id in the backend, drop the frontend round-trip"
+      },
+      {
+        "type": "feat",
+        "hash": "311c061",
+        "scope": "agents",
+        "msg": "capture + resume agent sessions (claude --resume)"
+      },
+      {
+        "type": "feat",
+        "hash": "f838ef5",
+        "scope": "metrics",
+        "msg": "cpu/memory monitor in status bar (push every 3s)"
+      },
+      {
+        "type": "feat",
+        "hash": "6ed8691",
+        "scope": "agents",
+        "msg": "cross-agent hook taxonomy, global hooks, live preview + permission/question UI"
+      },
+      {
+        "type": "docs",
+        "hash": "4e35079",
+        "scope": "hooks",
+        "msg": "spec reflects fire-and-forget (orca-style), blocking deferred"
+      },
+      {
+        "type": "refactor",
+        "hash": "a6221bb",
+        "scope": "hooks",
+        "msg": "fire-and-forget hooks (status + needs-input), no blocking"
+      },
+      {
+        "type": "docs",
+        "hash": "366a30e",
+        "scope": "hooks",
+        "msg": "spec reflects the `katrix hook` CLI subcommand"
+      },
+      {
+        "type": "refactor",
+        "hash": "f6cbc42",
+        "scope": "cli",
+        "msg": "proper `katrix hook` CLI subcommand under cli/ (clap)"
+      },
+      {
+        "type": "docs",
+        "hash": "e543426",
+        "scope": "hooks",
+        "msg": "mark spec implemented + note the __hook subcommand deviation"
+      },
+      {
+        "type": "refactor",
+        "hash": "55bebef",
+        "scope": "runtime",
+        "msg": "single-source detection for hooked tools + watch all worktrees"
+      },
+      {
+        "type": "feat",
+        "hash": "975baff",
+        "scope": "hooks",
+        "msg": "native-hook permission bridge + remote allow/deny"
+      },
+      {
+        "type": "feat",
+        "hash": "d728dd3",
+        "scope": "agents",
+        "msg": "AgentAdapter trait + per-tool impls + installed detection"
+      },
+      {
+        "type": "refactor",
+        "hash": "ef4b512",
+        "scope": "frontend",
+        "msg": "split OrchestraStore into feature-folder services"
+      },
+      {
+        "type": "feat",
+        "hash": "715474c",
+        "scope": "",
+        "msg": "agent runtime — worktrees, xterm terminal, live state, notifications"
+      },
+      {
+        "type": "refactor",
+        "hash": "ca1126c",
+        "scope": "frontend",
+        "msg": "real backend only — remove MockBridge data source"
+      },
+      {
+        "type": "feat",
+        "hash": "d67e344",
+        "scope": "frontend",
+        "msg": "wire Projects to backend via ProjectsStore + Bridge (C2)"
+      },
+      {
+        "type": "feat",
+        "hash": "8a9aed8",
+        "scope": "backend",
+        "msg": "register project commands in invoke_handler (C1)"
+      },
+      {
+        "type": "fix",
+        "hash": "7d50e23",
+        "scope": "projects",
+        "msg": "get() distinguishes no-row from DB error; rename misleading test"
+      },
+      {
+        "type": "feat",
+        "hash": "ba93694",
+        "scope": "frontend",
+        "msg": "slice 1 framework — EntityStore, Bridge, EntityFacade, vitest"
+      },
+      {
+        "type": "feat",
+        "hash": "2ebad52",
+        "scope": "backend",
+        "msg": "slice 1 — core errors/events, git module, projects service+commands"
+      },
+      {
+        "type": "docs",
+        "hash": "6f7c28f",
+        "scope": "",
+        "msg": "Slice 1 implementation plan (backend foundation + projects)"
+      },
+      {
+        "type": "docs",
+        "hash": "15919b5",
+        "scope": "",
+        "msg": "Slice 1 design spec — backend foundation + projects"
+      },
+      {
+        "type": "chore",
+        "hash": "ad6b9eb",
+        "scope": "",
+        "msg": "init with design"
+      }
+    ]
+  }
+]
