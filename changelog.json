@@ -1,5 +1,32 @@
 [
   {
+    "tag": "v0.6.2",
+    "channel": "beta",
+    "date": "July 18, 2026",
+    "ref": "75a0b27",
+    "summary": "IntelliJ-style diff, tree-view memory, Shift+Enter, file drop",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "c31fad8",
+        "scope": "diff+terminal",
+        "msg": "IntelliJ-style diff, tree-view memory, Shift+Enter, file drop"
+      },
+      {
+        "type": "chore",
+        "hash": "28f478f",
+        "scope": "",
+        "msg": "Add Google Analytics (GA4) tag to landing pages"
+      },
+      {
+        "type": "feat",
+        "hash": "910086c",
+        "scope": "brand",
+        "msg": "sync \"Orrery × Kouji.dev\" credit into the landing footer + app loading screen"
+      }
+    ]
+  },
+  {
     "tag": "v0.6.1",
     "channel": "beta",
     "date": "June 19, 2026",
