@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.7.0",
+    "channel": "beta",
+    "date": "July 21, 2026",
+    "ref": "efabfd7",
+    "summary": "open-worktree button, default-branch spawn fix, duplicate names, multi-tool Continue",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "b29df19",
+        "scope": "agents",
+        "msg": "open-worktree button, default-branch spawn fix, duplicate names, multi-tool Continue"
+      }
+    ]
+  },
+  {
     "tag": "v0.6.2",
     "channel": "beta",
     "date": "July 18, 2026",
