@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.8.0",
+    "channel": "beta",
+    "date": "July 22, 2026",
+    "ref": "5a87262",
+    "summary": "refresh curated model lists — fable default for claude",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "cc7f82d",
+        "scope": "tools",
+        "msg": "refresh curated model lists — fable default for claude"
+      },
+      {
+        "type": "feat",
+        "hash": "1ab7d5f",
+        "scope": "workspace",
+        "msg": "reveal-in-explorer + continue-session buttons in the pane header"
+      }
+    ]
+  },
+  {
     "tag": "v0.7.0",
     "channel": "beta",
     "date": "July 21, 2026",
