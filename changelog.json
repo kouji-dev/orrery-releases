@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.12.0",
+    "channel": "beta",
+    "date": "July 24, 2026",
+    "ref": "04f34c5",
+    "summary": "launch agents like the user's shell would",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "73cc387",
+        "scope": "runtime",
+        "msg": "launch agents like the user's shell would"
+      }
+    ]
+  },
+  {
     "tag": "v0.11.0",
     "channel": "beta",
     "date": "July 24, 2026",
