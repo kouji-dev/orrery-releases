@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.11.0",
+    "channel": "beta",
+    "date": "July 24, 2026",
+    "ref": "c6c7495",
+    "summary": "projects-folder default + confirmed worktree deletion",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "cc037ae",
+        "scope": "settings,worktree",
+        "msg": "projects-folder default + confirmed worktree deletion"
+      }
+    ]
+  },
+  {
     "tag": "v0.10.0",
     "channel": "beta",
     "date": "July 22, 2026",
