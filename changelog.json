@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.14.0",
+    "channel": "beta",
+    "date": "August 4, 2026",
+    "ref": "3b2b28a",
+    "summary": "process-model + terminal-pipeline + watcher/store efficiency batch",
+    "commits": [
+      {
+        "type": "perf",
+        "hash": "8b26c17",
+        "scope": "",
+        "msg": "process-model + terminal-pipeline + watcher/store efficiency batch"
+      }
+    ]
+  },
+  {
     "tag": "v0.13.0",
     "channel": "beta",
     "date": "August 3, 2026",
