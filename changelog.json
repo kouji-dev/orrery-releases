@@ -1,5 +1,32 @@
 [
   {
+    "tag": "v0.13.0",
+    "channel": "beta",
+    "date": "August 3, 2026",
+    "ref": "8b236db",
+    "summary": "v1 prep — perf/telemetry foundations, nav & search DX, git flagship chain",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "11ed589",
+        "scope": "",
+        "msg": "v1 prep — perf/telemetry foundations, nav & search DX, git flagship chain"
+      },
+      {
+        "type": "design",
+        "hash": "0dbe204",
+        "scope": "",
+        "msg": "sync Claude Design handoff — SE actions-first + lazy grouped files, topbar search placement, grid overflow fix"
+      },
+      {
+        "type": "design",
+        "hash": "0879f00",
+        "scope": "",
+        "msg": "snapshot Claude Design handoff (pre-sync baseline)"
+      }
+    ]
+  },
+  {
     "tag": "v0.12.0",
     "channel": "beta",
     "date": "July 24, 2026",
