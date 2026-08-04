@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.14.1",
+    "channel": "beta",
+    "date": "August 4, 2026",
+    "ref": "5baa6f6",
+    "summary": "stream PTY output to open terminals regardless of window focus",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "2dfd0a8",
+        "scope": "",
+        "msg": "stream PTY output to open terminals regardless of window focus"
+      }
+    ]
+  },
+  {
     "tag": "v0.14.0",
     "channel": "beta",
     "date": "August 4, 2026",
