@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.14.2",
+    "channel": "beta",
+    "date": "August 7, 2026",
+    "ref": "c3ffa1a",
+    "summary": "disable cost features behind kill switch; merge Resources/Processes into one tree panel",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "62ef0db",
+        "scope": "",
+        "msg": "disable cost features behind kill switch; merge Resources/Processes into one tree panel"
+      }
+    ]
+  },
+  {
     "tag": "v0.14.1",
     "channel": "beta",
     "date": "August 4, 2026",
