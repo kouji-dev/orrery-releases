@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.15.1",
+    "channel": "beta",
+    "date": "August 11, 2026",
+    "ref": "e8f0e9a",
+    "summary": "@ fix: initial prompt no longer drops the agent run settings",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "6d64190",
+        "scope": "",
+        "msg": "@ fix: initial prompt no longer drops the agent run settings"
+      }
+    ]
+  },
+  {
     "tag": "v0.15.0",
     "channel": "beta",
     "date": "August 9, 2026",
