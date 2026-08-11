@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.15.2",
+    "channel": "beta",
+    "date": "August 11, 2026",
+    "ref": "c8a988d",
+    "summary": "@ fix: a running instance now notices releases published mid-session",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "7235dda",
+        "scope": "",
+        "msg": "@ fix: a running instance now notices releases published mid-session"
+      }
+    ]
+  },
+  {
     "tag": "v0.15.1",
     "channel": "beta",
     "date": "August 11, 2026",
