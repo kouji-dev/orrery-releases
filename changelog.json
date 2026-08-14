@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.15.3",
+    "channel": "beta",
+    "date": "August 14, 2026",
+    "ref": "00cd98e",
+    "summary": "file actions context menu on the diff panel's file list",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "8d4454d",
+        "scope": "",
+        "msg": "files-panel flicker on watcher scans + per-tab scroll persistence"
+      },
+      {
+        "type": "feat",
+        "hash": "c299cbc",
+        "scope": "",
+        "msg": "file actions context menu on the diff panel's file list"
+      }
+    ]
+  },
+  {
     "tag": "v0.15.2",
     "channel": "beta",
     "date": "August 11, 2026",
