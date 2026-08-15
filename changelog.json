@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.16.0",
+    "channel": "beta",
+    "date": "August 15, 2026",
+    "ref": "398ba1b",
+    "summary": "landing conversion + macOS builds + install tracking",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "1527e5f",
+        "scope": "",
+        "msg": "landing conversion + macOS builds + install tracking"
+      }
+    ]
+  },
+  {
     "tag": "v0.15.3",
     "channel": "beta",
     "date": "August 14, 2026",
