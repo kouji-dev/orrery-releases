@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.17.0",
+    "channel": "beta",
+    "date": "August 17, 2026",
+    "ref": "6cca13a",
+    "summary": "graphite design system — token roles, Inter chrome, themed terminal",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "b17eaeb",
+        "scope": "",
+        "msg": "graphite design system — token roles, Inter chrome, themed terminal"
+      },
+      {
+        "type": "chore",
+        "hash": "21d262b",
+        "scope": "",
+        "msg": "Instrument the landing with GA4 events: downloads, outbound, release lookup"
+      }
+    ]
+  },
+  {
     "tag": "v0.16.0",
     "channel": "beta",
     "date": "August 15, 2026",
