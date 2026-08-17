@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.18.0",
+    "channel": "beta",
+    "date": "August 17, 2026",
+    "ref": "8b15532",
+    "summary": "light-mode boot splash — re-tuned triad, softer halo, no dark flash",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "364bfea",
+        "scope": "",
+        "msg": "light-mode boot splash — re-tuned triad, softer halo, no dark flash"
+      }
+    ]
+  },
+  {
     "tag": "v0.17.0",
     "channel": "beta",
     "date": "August 17, 2026",
