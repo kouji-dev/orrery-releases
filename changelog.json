@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.19.2",
+    "channel": "beta",
+    "date": "August 20, 2026",
+    "ref": "3f8d626",
+    "summary": "persist the workspace layout across restarts; continue terminals after an update relaunch",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "fab91bb",
+        "scope": "",
+        "msg": "diff tab keeps its opened file and scroll position across tab switches"
+      },
+      {
+        "type": "feat",
+        "hash": "48cc361",
+        "scope": "",
+        "msg": "persist the workspace layout across restarts; continue terminals after an update relaunch"
+      }
+    ]
+  },
+  {
     "tag": "v0.19.1",
     "channel": "beta",
     "date": "August 20, 2026",
