@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.19.1",
+    "channel": "beta",
+    "date": "August 20, 2026",
+    "ref": "c212c08",
+    "summary": "Preview action in the diff header for markdown files",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "b04500a",
+        "scope": "",
+        "msg": "Shift/Ctrl+Enter inserts a newline in the terminal instead of submitting"
+      },
+      {
+        "type": "feat",
+        "hash": "a70accb",
+        "scope": "",
+        "msg": "Preview action in the diff header for markdown files"
+      }
+    ]
+  },
+  {
     "tag": "v0.19.0",
     "channel": "beta",
     "date": "August 19, 2026",
