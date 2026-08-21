@@ -1,5 +1,38 @@
 [
   {
+    "tag": "v0.19.3",
+    "channel": "beta",
+    "date": "August 21, 2026",
+    "ref": "eae2508",
+    "summary": "the left sidebar's collapsed state persists in the workspace document",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "3e2ebf7",
+        "scope": "",
+        "msg": "the left sidebar's collapsed state persists in the workspace document"
+      },
+      {
+        "type": "feat",
+        "hash": "b5c7379",
+        "scope": "",
+        "msg": "wider diff file list (300px base), uniform density-scaled rows, persisted resize"
+      },
+      {
+        "type": "feat",
+        "hash": "f65a0c2",
+        "scope": "",
+        "msg": "persist the workspace in backend SQLite — layout, selections, and every scroll position"
+      },
+      {
+        "type": "fix",
+        "hash": "89cb978",
+        "scope": "",
+        "msg": "restore context-menu item hover; factor all menus into one shared chrome"
+      }
+    ]
+  },
+  {
     "tag": "v0.19.2",
     "channel": "beta",
     "date": "August 20, 2026",
