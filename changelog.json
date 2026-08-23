@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.19.4",
+    "channel": "beta",
+    "date": "August 23, 2026",
+    "ref": "0d75976",
+    "summary": "hard-delete checkbox in the delete-worktree dialog",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "12ef178",
+        "scope": "agents",
+        "msg": "hard-delete checkbox in the delete-worktree dialog"
+      },
+      {
+        "type": "feat",
+        "hash": "456dd7e",
+        "scope": "landing",
+        "msg": "make the site legible to AI agents"
+      }
+    ]
+  },
+  {
     "tag": "v0.19.3",
     "channel": "beta",
     "date": "August 21, 2026",
