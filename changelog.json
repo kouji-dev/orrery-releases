@@ -1,5 +1,32 @@
 [
   {
+    "tag": "v0.20.0",
+    "channel": "beta",
+    "date": "August 24, 2026",
+    "ref": "442bc7b",
+    "summary": "one type system, real semantics, kouji tabs everywhere",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "a2ec97d",
+        "scope": "",
+        "msg": "kouji-ui core 0.6.2 (confirm-popup + palette fixes) and de-flake the suite"
+      },
+      {
+        "type": "test",
+        "hash": "caa84f7",
+        "scope": "",
+        "msg": "bring the suites back in line with the kouji migration (+3 real fixes)"
+      },
+      {
+        "type": "feat",
+        "hash": "fc9ad17",
+        "scope": "ui",
+        "msg": "one type system, real semantics, kouji tabs everywhere"
+      }
+    ]
+  },
+  {
     "tag": "v0.19.4",
     "channel": "beta",
     "date": "August 23, 2026",
