@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.20.1",
+    "channel": "beta",
+    "date": "August 24, 2026",
+    "ref": "006dd00",
+    "summary": "repair the spawn dialog after the kouji migration",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "192b9e0",
+        "scope": "spawn",
+        "msg": "repair the spawn dialog after the kouji migration"
+      }
+    ]
+  },
+  {
     "tag": "v0.20.0",
     "channel": "beta",
     "date": "August 24, 2026",
