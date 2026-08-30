@@ -1,5 +1,68 @@
 [
   {
+    "tag": "v0.21.0",
+    "channel": "beta",
+    "date": "August 30, 2026",
+    "ref": "6c1e484",
+    "summary": "Ctrl+K opens Search Everywhere; terminal steal-list with per-binding tty toggle",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "00d530d",
+        "scope": "v2",
+        "msg": "sidebar files root follows a project tab to its proj: key; e2e realigned with the kouji chrome"
+      },
+      {
+        "type": "test",
+        "hash": "d64c872",
+        "scope": "",
+        "msg": "realign suites with the 6-key cache and the status-bar dev launcher"
+      },
+      {
+        "type": "feat",
+        "hash": "775082c",
+        "scope": "keymap",
+        "msg": "Ctrl+K opens Search Everywhere; terminal steal-list with per-binding tty toggle"
+      },
+      {
+        "type": "feat",
+        "hash": "49ced7b",
+        "scope": "v2",
+        "msg": "Tweaks/Dev anchors move into the status bar; dock scope selects go xs"
+      },
+      {
+        "type": "fix",
+        "hash": "66ae58f",
+        "scope": "v2",
+        "msg": "pin-aware work cache ends the refresh flicker; last kouji stragglers"
+      },
+      {
+        "type": "test",
+        "hash": "99a442e",
+        "scope": "e2e",
+        "msg": "spawn dialog branch refresh — on-open kick + manual button; de-flake effort paint"
+      },
+      {
+        "type": "fix",
+        "hash": "102ee89",
+        "scope": "v2",
+        "msg": "reconcile the rebase onto main's kouji/type-system migration"
+      },
+      {
+        "type": "feat",
+        "hash": "e61da72",
+        "scope": "v2",
+        "msg": "one home per verb — project tabs, tool-window git panels, workspace rework (WIP snapshot)"
+      },
+      {
+        "type": "design",
+        "hash": "c784ffa",
+        "scope": "",
+        "msg": "re-sync app.html onto the shipped type system"
+      }
+    ]
+  },
+  {
     "tag": "v0.20.1",
     "channel": "beta",
     "date": "August 24, 2026",
