@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.21.1",
+    "channel": "beta",
+    "date": "August 31, 2026",
+    "ref": "3439027",
+    "summary": "collapse-all, actions above the list, project-first filter",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "681de6c",
+        "scope": "sidebar",
+        "msg": "collapse-all, actions above the list, project-first filter"
+      }
+    ]
+  },
+  {
     "tag": "v0.21.0",
     "channel": "beta",
     "date": "August 30, 2026",
