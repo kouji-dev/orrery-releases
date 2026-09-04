@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.22.0",
+    "channel": "beta",
+    "date": "September 4, 2026",
+    "ref": "a84ab60",
+    "summary": "instant agent create/remove, gitoxide git backend, Defender exclusion at startup",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "494958e",
+        "scope": "deps",
+        "msg": "@kouji-ui/components 0.7.1 — select labels truncate instead of wrapping"
+      },
+      {
+        "type": "feat",
+        "hash": "74c6016",
+        "scope": "",
+        "msg": "instant agent create/remove, gitoxide git backend, Defender exclusion at startup"
+      }
+    ]
+  },
+  {
     "tag": "v0.21.1",
     "channel": "beta",
     "date": "August 31, 2026",
