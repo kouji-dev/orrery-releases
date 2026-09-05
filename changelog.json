@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.22.1",
+    "channel": "beta",
+    "date": "September 5, 2026",
+    "ref": "5a2e1ee",
+    "summary": "versioned model catalog, pointer-based tab drag, branch picker order, diff-list OS hand-offs",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "9e5fa6f",
+        "scope": "",
+        "msg": "versioned model catalog, pointer-based tab drag, branch picker order, diff-list OS hand-offs"
+      }
+    ]
+  },
+  {
     "tag": "v0.22.0",
     "channel": "beta",
     "date": "September 4, 2026",
