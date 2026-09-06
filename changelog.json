@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.22.2",
+    "channel": "beta",
+    "date": "September 6, 2026",
+    "ref": "0950854",
+    "summary": "Alt+N for the unblock queue, file/folder CRUD in the changed-file list",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "5b90ed0",
+        "scope": "",
+        "msg": "Alt+N for the unblock queue, file/folder CRUD in the changed-file list"
+      }
+    ]
+  },
+  {
     "tag": "v0.22.1",
     "channel": "beta",
     "date": "September 5, 2026",
