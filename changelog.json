@@ -1,5 +1,32 @@
 [
   {
+    "tag": "v0.23.0",
+    "channel": "beta",
+    "date": "September 10, 2026",
+    "ref": "48013e2",
+    "summary": "markdown preview — mermaid via marked plugin, tables, select-to-comment",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "604aff9",
+        "scope": "",
+        "msg": "markdown preview — mermaid via marked plugin, tables, select-to-comment"
+      },
+      {
+        "type": "design",
+        "hash": "aff1e01",
+        "scope": "",
+        "msg": "sync Claude Design export — Markdown Preview screens (orrery-v2.html)"
+      },
+      {
+        "type": "feat",
+        "hash": "78babeb",
+        "scope": "",
+        "msg": "shared lookup scope, symbol search, per-branch update, multi-commit diff, grid recency"
+      }
+    ]
+  },
+  {
     "tag": "v0.22.2",
     "channel": "beta",
     "date": "September 6, 2026",
