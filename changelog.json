@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.23.1",
+    "channel": "beta",
+    "date": "September 10, 2026",
+    "ref": "d46ff17",
+    "summary": "annotate in the editor — blame as a Monaco column, not a replacement pane",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "2d6336e",
+        "scope": "",
+        "msg": "annotate in the editor — blame as a Monaco column, not a replacement pane"
+      }
+    ]
+  },
+  {
     "tag": "v0.23.0",
     "channel": "beta",
     "date": "September 10, 2026",
