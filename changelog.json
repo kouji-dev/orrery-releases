@@ -1,5 +1,38 @@
 [
   {
+    "tag": "v0.24.0",
+    "channel": "beta",
+    "date": "September 15, 2026",
+    "ref": "d73d345",
+    "summary": "LSP auto-start, diff navigation, server resources; drop Recent Files",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "d73d345",
+        "scope": "build",
+        "msg": "raise the initial bundle budget; blank ext rev defers to pin packRev"
+      },
+      {
+        "type": "feat",
+        "hash": "b174234",
+        "scope": "",
+        "msg": "LSP auto-start, diff navigation, server resources; drop Recent Files"
+      },
+      {
+        "type": "fix",
+        "hash": "95562b1",
+        "scope": "ext",
+        "msg": "compose TypeScript/TSX tags + locals with the JavaScript queries"
+      },
+      {
+        "type": "feat",
+        "hash": "060965c",
+        "scope": "",
+        "msg": "symbol navigation — extension host, tree-sitter index, LSP client, library sources"
+      }
+    ]
+  },
+  {
     "tag": "v0.23.1",
     "channel": "beta",
     "date": "September 10, 2026",
