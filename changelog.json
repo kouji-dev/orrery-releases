@@ -1,5 +1,38 @@
 [
   {
+    "tag": "v0.24.1",
+    "channel": "beta",
+    "date": "September 16, 2026",
+    "ref": "9964887",
+    "summary": "shift-click adds the run from the last ctrl-click instead of replacing the selection",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "17aab1a",
+        "scope": "git-graph",
+        "msg": "shift-click adds the run from the last ctrl-click instead of replacing the selection"
+      },
+      {
+        "type": "chore",
+        "hash": "4e401d7",
+        "scope": "themes",
+        "msg": "own the orrery and orrery-light palettes; kouji-ui 0.9.4 / 0.8.5 / themes 0.1.2"
+      },
+      {
+        "type": "fix",
+        "hash": "7b18508",
+        "scope": "ci",
+        "msg": "pack releases are prereleases; the app release claims latest"
+      },
+      {
+        "type": "fix",
+        "hash": "34fcb59",
+        "scope": "ci",
+        "msg": "extensions workflow — a pack list without runtimes/servers is not a failure"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.0",
     "channel": "beta",
     "date": "September 15, 2026",
