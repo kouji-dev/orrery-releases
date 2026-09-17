@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.24.5",
+    "channel": "beta",
+    "date": "September 17, 2026",
+    "ref": "fc84d74",
+    "summary": "update card survives \"Later\", detection off the boot path, pi config errors",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "90f4915",
+        "scope": "",
+        "msg": "update card survives \"Later\", detection off the boot path, pi config errors"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.4",
     "channel": "beta",
     "date": "September 17, 2026",
