@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.24.2",
+    "channel": "beta",
+    "date": "September 17, 2026",
+    "ref": "8a8d276",
+    "summary": "per-pack install progress, held-Shift no longer opens search, menu rows back to padding height",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "bf62a4a",
+        "scope": "",
+        "msg": "per-pack install progress, held-Shift no longer opens search, menu rows back to padding height"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.1",
     "channel": "beta",
     "date": "September 16, 2026",
