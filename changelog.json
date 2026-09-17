@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.24.6",
+    "channel": "beta",
+    "date": "September 17, 2026",
+    "ref": "e151756",
+    "summary": "edit a spawned agent; fix three long-failing specs",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "06359d3",
+        "scope": "",
+        "msg": "edit a spawned agent; fix three long-failing specs"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.5",
     "channel": "beta",
     "date": "September 17, 2026",
