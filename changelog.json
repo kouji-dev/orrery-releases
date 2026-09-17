@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.24.3",
+    "channel": "beta",
+    "date": "September 17, 2026",
+    "ref": "ddb3aef",
+    "summary": "pi agent, dynamic model lists, PTY teardown on stop, diff panel fixes",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "4b5cab2",
+        "scope": "",
+        "msg": "pi agent, dynamic model lists, PTY teardown on stop, diff panel fixes"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.2",
     "channel": "beta",
     "date": "September 17, 2026",
