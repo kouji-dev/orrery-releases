@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.24.4",
+    "channel": "beta",
+    "date": "September 17, 2026",
+    "ref": "2e1c343",
+    "summary": "agent detection sweep, probe cache, spawn dialog layout",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "2e21eeb",
+        "scope": "",
+        "msg": "agent detection sweep, probe cache, spawn dialog layout"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.3",
     "channel": "beta",
     "date": "September 17, 2026",
