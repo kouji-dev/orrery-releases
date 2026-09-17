@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.24.7",
+    "channel": "beta",
+    "date": "September 17, 2026",
+    "ref": "b475ebe",
+    "summary": "markdown fence syntax highlighting; fix diagram full size and edge-clipped context menus",
+    "commits": [
+      {
+        "type": "feat",
+        "hash": "0d891d1",
+        "scope": "",
+        "msg": "markdown fence syntax highlighting; fix diagram full size and edge-clipped context menus"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.6",
     "channel": "beta",
     "date": "September 17, 2026",
