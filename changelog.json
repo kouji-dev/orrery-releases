@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.24.8",
+    "channel": "beta",
+    "date": "September 18, 2026",
+    "ref": "b30b889",
+    "summary": "one changed-file list for every diff surface; compare header names its commits",
+    "commits": [
+      {
+        "type": "ci",
+        "hash": "f548c2b",
+        "scope": "release",
+        "msg": "park the macOS build until the Mac app is ready"
+      },
+      {
+        "type": "feat",
+        "hash": "9cc5dd3",
+        "scope": "git",
+        "msg": "one changed-file list for every diff surface; compare header names its commits"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.7",
     "channel": "beta",
     "date": "September 17, 2026",
