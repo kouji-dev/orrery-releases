@@ -1,5 +1,20 @@
 [
   {
+    "tag": "v0.24.9",
+    "channel": "beta",
+    "date": "September 19, 2026",
+    "ref": "f205403",
+    "summary": "the commit/compare split keeps the pane's full height when folders collapse",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "8094ba2",
+        "scope": "diff",
+        "msg": "the commit/compare split keeps the pane's full height when folders collapse"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.8",
     "channel": "beta",
     "date": "September 18, 2026",
