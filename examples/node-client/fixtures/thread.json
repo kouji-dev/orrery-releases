@@ -1,0 +1,85 @@
+{
+ "base": {
+  "blocks": [
+   {
+    "b": "user",
+    "text": "add retries to the stripe webhook handler"
+   },
+   {
+    "b": "blank"
+   },
+   {
+    "b": "prose",
+    "text": "I'll read the handler first, then wrap dispatch in a retry with backoff."
+   },
+   {
+    "b": "blank"
+   },
+   {
+    "b": "tool",
+    "name": "Read",
+    "args": "src/webhooks/stripe.ts",
+    "dur": "0.2s"
+   },
+   {
+    "b": "res",
+    "text": "Read 142 lines"
+   },
+   {
+    "b": "blank"
+   },
+   {
+    "b": "tool",
+    "name": "Update",
+    "args": "src/webhooks/stripe.ts",
+    "dur": "0.4s"
+   },
+   {
+    "b": "res",
+    "text": "Updated with +3 −1"
+   },
+   {
+    "b": "blank"
+   },
+   {
+    "b": "prose",
+    "text": "The handler now retries 5 times with full jitter before returning 500."
+   },
+   {
+    "b": "blank"
+   },
+   {
+    "b": "outcome",
+    "k": "done",
+    "detail": "1m 52s · 9 tools · $0.46"
+   }
+  ]
+ },
+ "states": {
+  "default": {
+   "mode": "follow"
+  },
+  "focused": {
+   "mode": "scrolled",
+   "top": 2,
+   "track": [
+    3,
+    5
+   ],
+   "new_count": 3
+  },
+  "loading": {
+   "mode": "loading"
+  },
+  "empty": {
+   "mode": "empty"
+  },
+  "error": {
+   "mode": "error",
+   "error": "Couldn't restore 14 earlier turns: session.jsonl ends mid-write. New messages still work; /resume picks another session."
+  },
+  "disabled": {
+   "mode": "dim"
+  }
+ }
+}

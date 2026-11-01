@@ -1,0 +1,18 @@
+# `acme-client`: a person's own client (decision 0093, plan 42 W5.2). The
+# Orrery TUI as a library, plus one component: a Gantt chart for `acme.gantt`.
+[package]
+name = "acme-client"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+# In-tree, by path. A client outside this repository names the version
+# instead (what `orrery client new --from ratatui` writes):
+#   orrery-client-ratatui = { git = "https://github.com/kouji-dev/orrery", version = "0.1.0" }
+orrery-client-ratatui = { path = "../../../clients/ratatui" }
+ratatui = "0.29"
+serde_json = "1"
+
+# Its own workspace: an example, not a member of Orrery's.
+[workspace]

@@ -1,0 +1,21 @@
+# Plan 40's proof, in Node (W3.5, used by W4.5): one extension that calls a
+# model, sends input, reads and appends to the session, gates a tool, adds a
+# context section from state, sets a timer and asks the person.
+api     = "orrery-ext/1"
+runtime = "node"
+
+[extension]
+id      = "every-call"
+version = "0.1.0"
+
+[provides]
+tools        = ["recap", "nudge", "ship"]
+interceptors = ["no-force-push"]
+
+[requires]
+model         = true
+"run.send"    = true
+"session.read"  = true
+"session.write" = true
+intercept     = ["tool.before:builtin.bash"]
+ui            = true

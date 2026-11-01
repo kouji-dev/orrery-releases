@@ -1,0 +1,48 @@
+{
+ "base": {
+  "tool": "Bash",
+  "command": "npm test -- webhooks",
+  "detail": "runs the webhook suite · ~/northwind/payments",
+  "state": "asking",
+  "selected": 0,
+  "choices": [
+   {
+    "key": "y",
+    "label": "allow once"
+   },
+   {
+    "key": "a",
+    "label": "always \"npm test\""
+   },
+   {
+    "key": "n",
+    "label": "deny"
+   },
+   {
+    "key": "e",
+    "label": "explain"
+   }
+  ]
+ },
+ "states": {
+  "default": {},
+  "focused": {
+   "selected": 1
+  },
+  "loading": {
+   "state": "busy"
+  },
+  "error": {
+   "state": "blocked",
+   "command": "rm -rf dist/ node_modules/",
+   "detail": "blocked by .orrery/policy.toml:4 (deny \"rm -rf\")"
+  },
+  "disabled": {
+   "state": "no-allow",
+   "selected": 2
+  },
+  "queued": {
+   "queued": 2
+  }
+ }
+}

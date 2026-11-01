@@ -1,0 +1,24 @@
+{
+ "base": {
+  "title": "✓ orrery — done · payments",
+  "body": "Turn done · PAY-412 fixed · 1m 52s"
+ },
+ "states": {
+  "default": {},
+  "waiting": {
+   "title": "▲ orrery — needs you · payments",
+   "body": "Allow Bash: npm test -- webhooks"
+  },
+  "focused": {
+   "focused": true
+  },
+  "error": {
+   "title": "✗ orrery — error · payments",
+   "body": "anthropic 529 overloaded"
+  },
+  "disabled": {
+   "title": "orrery — payments",
+   "off": true
+  }
+ }
+}

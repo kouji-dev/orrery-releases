@@ -1,0 +1,46 @@
+# `acme-client`: a person's own client and the element it adds (decision 0093,
+# plan 42 W5.2). One package, two contributions:
+#
+# - `[[provides.elements]] acme.gantt`: the element, its props schema and its
+#   fallback. Whoever sends one sends this fallback with it, so every other
+#   client (Ink, the ADE, Cloud web, a stock AG-UI client) still draws a table.
+# - `[[provides.clients]] acme`: the Orrery TUI built as a library, plus a Gantt
+#   chart for `acme.gantt` (src/main.rs).
+#
+#     cargo build --release --manifest-path harness/extensions/examples/acme-client/Cargo.toml
+#     # copy <target>/release/acme-client[.exe] beside this file
+#     orrery install ./harness/extensions/examples/acme-client
+#     orrery --ui acme
+
+[extension]
+api = "orrery-ext/1"
+name = "acme-client"
+version = "0.1.0"
+runtime = "process"
+
+[process]
+command = "./acme-client"
+
+[[provides.elements]]
+id = "acme.gantt"
+props = "gantt.schema.json"
+fallback = "table"
+fixture = "fixtures/acme.gantt.json"
+
+[[provides.clients]]
+id = "acme"
+label = "Acme (the TUI with a Gantt chart)"
+role = "human"
+entry = "acme-client"
+# Its fixtures: `orrery install` hands the client `fixtures/acme.gantt.json`
+# in probe mode, and the Gantt component answers it. The library's own
+# elements have no file here: its suite proves them.
+fixtures = "fixtures"
+# Everything the library draws (the required set included), plus `acme.gantt`.
+draws = ["layout", "banner", "thread", "message", "dock", "input", "footer", "status", "fullscreen", "overlay",
+         "consent", "trust", "exit", "toast", "notify", "retry", "update", "mode", "chart", "raster", "image",
+         "row", "column", "box", "tabs", "divider", "heading", "link", "badge", "callout", "kv", "code",
+         "acme.gantt"]
+
+[grants]
+client = ["draw", "consent", "tty"]

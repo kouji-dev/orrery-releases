@@ -1,0 +1,41 @@
+# CI watch, code mode (plan 42 W5.2; plan 41 W4.2; decisions 0088, 0089, 0092):
+# a resident extension in Python, raw JSON-RPC over stdio, no SDK. `runtime =
+# "python"` runs `python main.py` from this folder. Its `ci` pane is the same
+# component as the declared twin ../ci-watch-toml, fed by code instead of a file.
+api      = "orrery-ext/1"
+runtime  = "python"
+
+[extension]
+id       = "ci-watch"
+version  = "0.1.0"
+resident = true
+
+[provides]
+tools = ["refresh"]
+
+# The structure is `ci.json`; `ui/show {component = "ci"}` places it and
+# `ui/data` feeds it.
+[[provides.components]]
+name    = "ci"
+summary = "The last CI run: its status, its jobs (choose one to rerun it) and a button to explain it"
+file    = "ci.json"
+schema  = { type = "object", properties = { workflow = { type = "string", default = "CI" }, status = { type = "string", default = "unknown" }, failed = { type = "integer", default = 0 }, total = { type = "integer", default = 0 }, jobs = { type = "array", default = [], items = { type = "object", properties = { name = { type = "string" }, status = { type = "string" } } } } } }
+
+# Drawn at once in their loading state; `ui/show` fills them with the same ids.
+[[provides.placements]]
+id        = "ci"
+placement = "pane.right"
+title     = "CI"
+
+[[provides.placements]]
+id        = "deploy"
+placement = "band"
+title     = "Deploy"
+
+[[provides.keys]]
+key     = "f5"
+command = "ci refresh"
+
+[requires]
+ui = true
+"run.send" = true

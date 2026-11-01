@@ -1,0 +1,31 @@
+{
+ "base": {
+  "mode": "accept",
+  "hints": "? keys|/ commands|shift+tab mode",
+  "tokens": "41.2k",
+  "cost": "$0.46",
+  "model": "claude-opus-4.1"
+ },
+ "states": {
+  "default": {},
+  "loading": {
+   "hints": "esc stop|ctrl+c interrupt|ctrl+o thinking"
+  },
+  "empty": {
+   "tokens": null,
+   "model": null,
+   "mode": "default",
+   "hints": "/providers sign in|? keys"
+  },
+  "error": {
+   "model_error": true,
+   "hints": "r retry|/model switch"
+  },
+  "disabled": {
+   "hints": "esc close palette|↑↓ move"
+  },
+  "ctrl+c armed": {
+   "armed": true
+  }
+ }
+}

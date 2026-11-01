@@ -1,0 +1,41 @@
+{
+ "base": {
+  "toasts": [
+   {
+    "kind": "success",
+    "text": "copied 42 lines"
+   }
+  ]
+ },
+ "states": {
+  "default": {},
+  "info": {
+   "toasts": [
+    {
+     "kind": "info",
+     "text": "model switched to claude-opus-4.1"
+    }
+   ]
+  },
+  "warning": {
+   "toasts": [
+    {
+     "kind": "warning",
+     "text": "clipboard unavailable over SSH · shift+drag to select"
+    }
+   ]
+  },
+  "stacked": {
+   "toasts": [
+    {
+     "kind": "info",
+     "text": "model switched to claude-opus-4.1"
+    },
+    {
+     "kind": "success",
+     "text": "copied 42 lines"
+    }
+   ]
+  }
+ }
+}

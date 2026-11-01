@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "acme-ink.gantt",
+  "type": "object",
+  "required": ["tasks"],
+  "properties": {
+    "title": { "type": "string" },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "start", "end"],
+        "properties": {
+          "name": { "type": "string" },
+          "start": { "type": "integer", "description": "days from the plan's start" },
+          "end": { "type": "integer" },
+          "status": { "enum": ["done", "running", "todo"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "column",
+  "children": [
+    { "type": "text", "value": "${/workflow} · ${/status}" },
+    { "type": "text", "value": "${/failed} failed of ${/total}" },
+    {
+      "type": "list",
+      "style": "select",
+      "action": "rerun",
+      "empty": "No jobs yet",
+      "items": { "$data": "/jobs", "each": { "value": "${/name}", "label": "${/name}", "detail": "${/status}" } }
+    },
+    { "type": "button", "label": "Explain", "action": "explain" }
+  ]
+}

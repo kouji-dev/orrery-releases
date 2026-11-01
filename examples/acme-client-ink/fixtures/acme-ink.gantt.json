@@ -1,0 +1,8 @@
+[
+  { "props": { "title": "Release 0.25", "tasks": [
+    { "name": "design", "start": 0, "end": 3, "status": "done" },
+    { "name": "build", "start": 2, "end": 9, "status": "running" },
+    { "name": "ship", "start": 9, "end": 10 }
+  ] } },
+  { "props": { "tasks": [] } }
+]

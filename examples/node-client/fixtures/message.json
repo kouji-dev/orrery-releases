@@ -1,0 +1,111 @@
+{
+ "base": {
+  "blocks": [
+   {
+    "b": "user",
+    "text": "add retries to the stripe webhook handler, cap at 5"
+   },
+   {
+    "b": "blank"
+   },
+   {
+    "b": "prose",
+    "text": "Fixed. withRetry() makes 5 attempts with full jitter; the handler still returns 500 if every attempt fails."
+   },
+   {
+    "b": "blank"
+   },
+   {
+    "b": "outcome",
+    "k": "done",
+    "detail": "1m 52s · 9 tools · $0.46"
+   }
+  ]
+ },
+ "states": {
+  "default": {},
+  "focused": {
+   "selected": true
+  },
+  "loading": {
+   "blocks": [
+    {
+     "b": "user",
+     "text": "add retries to the stripe webhook handler, cap at 5"
+    },
+    {
+     "b": "blank"
+    },
+    {
+     "b": "prose",
+     "text": "The handler calls dispatchEvent once and returns 500 on any throw, so a transient failure waits for",
+     "caret": true
+    }
+   ]
+  },
+  "empty": {
+   "blocks": [
+    {
+     "b": "user",
+     "text": "add retries to the stripe webhook handler, cap at 5"
+    },
+    {
+     "b": "blank"
+    },
+    {
+     "b": "empty"
+    },
+    {
+     "b": "note",
+     "text": "The model returned no text. r retries; /model switches model."
+    }
+   ]
+  },
+  "error": {
+   "blocks": [
+    {
+     "b": "user",
+     "text": "add retries to the stripe webhook handler, cap at 5"
+    },
+    {
+     "b": "blank"
+    },
+    {
+     "b": "outcome",
+     "k": "error",
+     "detail": "anthropic 529 overloaded · 4s"
+    },
+    {
+     "b": "note",
+     "text": "r retry now · /model switch model · ctrl+o details"
+    }
+   ]
+  },
+  "disabled": {
+   "rewound": true
+  },
+  "interrupted": {
+   "blocks": [
+    {
+     "b": "user",
+     "text": "add retries to the stripe webhook handler, cap at 5"
+    },
+    {
+     "b": "blank"
+    },
+    {
+     "b": "prose",
+     "text": "I'll read the handler first, then"
+    },
+    {
+     "b": "blank"
+    },
+    {
+     "b": "outcome",
+     "k": "interrupted",
+     "detail": "12s · ↑ edits your prompt"
+    }
+   ]
+  }
+ }
+}
