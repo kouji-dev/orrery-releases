@@ -1,5 +1,50 @@
 [
   {
+    "tag": "v0.25.1",
+    "channel": "beta",
+    "date": "November 1, 2026",
+    "ref": "7b922d9",
+    "summary": "catalog components in the agent view (plan 42)",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "5c4587b",
+        "scope": "updater",
+        "msg": "end the endless UAC loop from an old per-machine install, relaunch after the rename, cap auto-installs"
+      },
+      {
+        "type": "test",
+        "hash": "32877be",
+        "scope": "",
+        "msg": "green the test workflow on main (#5)"
+      },
+      {
+        "type": "ci",
+        "hash": "fd5429d",
+        "scope": "release",
+        "msg": "Linux and macOS written but off by default (#4)"
+      },
+      {
+        "type": "chore",
+        "hash": "ca34d5f",
+        "scope": "ci",
+        "msg": "one GitHub token, ORRERY_GH_TOKEN; start-up budget raised to 4 MB for now (#3)"
+      },
+      {
+        "type": "chore",
+        "hash": "e0e43e7",
+        "scope": "",
+        "msg": "@getorrery packages, vendor/orrery at kouji-dev/orrery@2d8a34c7"
+      },
+      {
+        "type": "feat",
+        "hash": "0722fe6",
+        "scope": "agent",
+        "msg": "catalog components in the agent view (plan 42)"
+      }
+    ]
+  },
+  {
     "tag": "v0.25.0",
     "channel": "beta",
     "date": "November 1, 2026",
