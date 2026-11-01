@@ -1,0 +1,22 @@
+# Checks extensions.json on every pull request that touches it: valid JSON,
+# schema 1, every required field, unique ids. Runs no code from the PR beyond
+# the checker itself, with a read-only token.
+name: extensions
+
+on:
+  pull_request:
+    paths: ["extensions.json", "scripts/check_extensions.py", ".github/workflows/extensions.yml"]
+  push:
+    branches: [main]
+    paths: ["extensions.json"]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check extensions.json
+        run: python3 scripts/check_extensions.py extensions.json
