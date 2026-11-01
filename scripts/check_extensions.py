@@ -10,7 +10,12 @@ import re
 import sys
 
 REQUIRED = ("id", "name", "description", "author", "source", "repository", "version")
-OPTIONAL = ("keywords", "capabilities")
+LISTS = ("keywords", "capabilities")
+OPTIONAL = LISTS + ("kinds", "npm", "builtin", "added", "updated")
+# Fixed set, mirrored by orrery-registry's `Kind`; a new one needs a release that reads it.
+KINDS = ("client", "provider", "session-store", "tools", "commands", "ui", "agents")
+# YYYY-MM-DD with month 01-12 and day 01-31; the day is not checked against the month.
+DATE = re.compile(r"\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])")
 ID = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 SEMVER = re.compile(r"^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.+-]+)?$")
 # What `orrery install` takes: npm, crates.io, or a git URL / host shorthand.
@@ -39,9 +44,18 @@ def check(doc):
         for key in REQUIRED:
             if not isinstance(e.get(key), str) or not e[key].strip():
                 problems.append(f"{where}: `{key}` is required, a non-empty string")
-        for key in OPTIONAL:
+        for key in LISTS:
             if key in e and not (isinstance(e[key], list) and all(isinstance(x, str) and x for x in e[key])):
                 problems.append(f"{where}: `{key}` must be an array of non-empty strings")
+        if "kinds" in e and not (isinstance(e["kinds"], list) and all(k in KINDS for k in e["kinds"])):
+            problems.append(f"{where}: `kinds` must be an array of {', '.join(KINDS)}; found {e['kinds']!r}")
+        if "npm" in e and not (isinstance(e["npm"], str) and e["npm"].strip()):
+            problems.append(f"{where}: `npm` must be a non-empty string, the npm package name")
+        if "builtin" in e and not isinstance(e["builtin"], bool):
+            problems.append(f"{where}: `builtin` must be true or false")
+        for key in ("added", "updated"):
+            if key in e and not (isinstance(e[key], str) and DATE.fullmatch(e[key])):
+                problems.append(f"{where}: `{key}` must be YYYY-MM-DD, found {e[key]!r}")
         extra = set(e) - set(REQUIRED) - set(OPTIONAL)
         if extra:
             problems.append(f"{where}: unknown keys {sorted(extra)} (allowed: {', '.join(REQUIRED + OPTIONAL)})")
@@ -77,6 +91,14 @@ def self_test():
     assert any("`name` is required" in p for p in check(missing))
     bad = dict(good["extensions"][0], source="pypi:a", version="latest")
     assert any("`source`" in p for p in check({"schema": 1, "extensions": [bad]}))
+    one = good["extensions"][0]
+    rich = dict(one, kinds=["client", "agents"], npm="orrery-ext-a", builtin=True,
+                added="2026-10-01", updated="2026-11-01")
+    assert check({"schema": 1, "extensions": [rich]}) == [], check({"schema": 1, "extensions": [rich]})
+    for field, value in [("kinds", ["toolbox"]), ("kinds", "client"), ("npm", ""), ("builtin", "yes"),
+                         ("added", "11/01/2026"), ("updated", "2026-13-01"), ("updated", "2026-11-01\n")]:
+        probs = check({"schema": 1, "extensions": [dict(one, **{field: value})]})
+        assert any(f"`{field}`" in p for p in probs), (field, value, probs)
 
 
 def main(path):
