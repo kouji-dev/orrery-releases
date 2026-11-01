@@ -1,5 +1,548 @@
 [
   {
+    "tag": "v0.25.0",
+    "channel": "beta",
+    "date": "November 1, 2026",
+    "ref": "80436f8",
+    "summary": "language servers and runtimes install from their upstream downloads",
+    "commits": [
+      {
+        "type": "ci",
+        "hash": "d56c70c",
+        "scope": "",
+        "msg": "parked macOS entries name macos-15 (macos-14 images retire on 2026-11-02)"
+      },
+      {
+        "type": "ci",
+        "hash": "e7305d2",
+        "scope": "release",
+        "msg": "builds upload into a draft release, no Actions artifacts"
+      },
+      {
+        "type": "chore",
+        "hash": "885ec31",
+        "scope": "",
+        "msg": "getorrery.dev, vendor/orrery at 037c773b, kouji-ui 0.12.2 / core 0.11.0"
+      },
+      {
+        "type": "revert",
+        "hash": "9f269b3",
+        "scope": "",
+        "msg": "the upstream index is index.json again"
+      },
+      {
+        "type": "fix",
+        "hash": "27e0b91",
+        "scope": "extensions",
+        "msg": "publish the upstream index as index-v2.json; index.json stays frozen"
+      },
+      {
+        "type": "feat",
+        "hash": "51cf6a1",
+        "scope": "extensions",
+        "msg": "language servers and runtimes install from their upstream downloads"
+      },
+      {
+        "type": "build",
+        "hash": "4cfe48c",
+        "scope": "",
+        "msg": "orrery-ade stands alone (platform decision 0027, plan 15)"
+      },
+      {
+        "type": "build",
+        "hash": "cf28f48",
+        "scope": "ade",
+        "msg": "initial-bundle error budget 3 MB -> 4 MB"
+      },
+      {
+        "type": "feat",
+        "hash": "3c0c589",
+        "scope": "",
+        "msg": "cloud identity, config history and live events; ADE cloud link; landing compare and ADE pages"
+      },
+      {
+        "type": "feat",
+        "hash": "22c2e59",
+        "scope": "harness",
+        "msg": "plan 39 — every extension a process behind a supervisor"
+      },
+      {
+        "type": "feat",
+        "hash": "7f1c1cd",
+        "scope": "platform",
+        "msg": "plans 12 and 13 — sessions kept in Cloud, handoff, requester-scoped UI, profiles; the pooled k8s tier (warm pool, Postgres, relay pool, Helm); Orrery and Cloud sites (decisions 0020/0021, harness 0065)"
+      },
+      {
+        "type": "feat",
+        "hash": "8ed4183",
+        "scope": "ade",
+        "msg": "IDE mode's sidebar as the canvas draws it — find, a menu (add a repository, group by repository, show archived), Running / Not running groups that fold, archive / restore, the whole sidebar collapses; no Orchestrator tab or Ctrl+1; the design system's spinner wherever a pane loads"
+      },
+      {
+        "type": "fix",
+        "hash": "0a29664",
+        "scope": "ade",
+        "msg": "IDE mode's File tab keeps the changes coloured (whole file, nothing folded); folding follows the Diff / File tab on the live editor"
+      },
+      {
+        "type": "fix",
+        "hash": "4593d13",
+        "scope": "ade",
+        "msg": "a session's changed file diffs against the index, as its +/- counts do — HEAD drew a staged file as all added and a committed one as unchanged"
+      },
+      {
+        "type": "feat",
+        "hash": "58bde36",
+        "scope": "ade",
+        "msg": "IDE mode's diffs, Agent mode's open-file dialog and the changes panel draw the shared orr-monaco-diff (blame, symbol navigation, saved scroll, stats and line comments plug in through its ready hook); a centred spinner while a file loads; the Monaco theme follows the page's code ground, whatever the theme is named"
+      },
+      {
+        "type": "feat",
+        "hash": "19b335a",
+        "scope": "ui, cloud, ade",
+        "msg": "the changes view shows a file as IDE mode does — one Monaco (loader, token theme, languages, line comments) in @orrery/ui; inline diff, unchanged regions folded, opened on the first change; Cloud and Agent mode pass both sides"
+      },
+      {
+        "type": "feat",
+        "hash": "28de45c",
+        "scope": "no-provider",
+        "msg": "the chat's empty state and the ADE's new session say there is no provider, and the way out"
+      },
+      {
+        "type": "feat",
+        "hash": "516b25a",
+        "scope": "chat",
+        "msg": "the rail's live changes are the review's file list (Tree / Flat, one setting per app); the machine alone, on one line"
+      },
+      {
+        "type": "feat",
+        "hash": "7095642",
+        "scope": "chat",
+        "msg": "the person is named in both clients — the ADE by its Cloud account (else the OS user), Cloud web by the account"
+      },
+      {
+        "type": "fix",
+        "hash": "e31f750",
+        "scope": "ade",
+        "msg": "this machine's node joined to Cloud is listed once, as local; the machine picker offers it once"
+      },
+      {
+        "type": "fix",
+        "hash": "ccf7405",
+        "scope": "ade",
+        "msg": "Open file's body starts under its head (no negative top margin since the head is symmetric); the rail's j/k hint is gone"
+      },
+      {
+        "type": "fix",
+        "hash": "472a087",
+        "scope": "ade",
+        "msg": "a node woken with no repository runs in the person's home, not the ADE's own working folder"
+      },
+      {
+        "type": "feat",
+        "hash": "8a0a999",
+        "scope": "ade",
+        "msg": "opening Agent mode brings this machine's node up, so its sessions (hibernated ones too) are listed; no harness reaches the install offer"
+      },
+      {
+        "type": "fix",
+        "hash": "1c164bb",
+        "scope": "ade",
+        "msg": "the dev node commits as the person — a moved HOME keeps their git config (GIT_CONFIG_GLOBAL)"
+      },
+      {
+        "type": "fix",
+        "hash": "9b577de",
+        "scope": "ade",
+        "msg": "Agent mode groups a session by its repository, hides the node's own session until it runs; the status bar counts what Needs you lists"
+      },
+      {
+        "type": "fix",
+        "hash": "76aaf20",
+        "scope": "ade",
+        "msg": "New session reads the harness's \"none needed\" (no key field for Ollama/vLLM; optional for OpenAI-compatible); Ollama's endpoint example is :11434"
+      },
+      {
+        "type": "fix",
+        "hash": "029b21d",
+        "scope": "ade",
+        "msg": "the main pane's hint reads the rail's own list (deck.order().flat)"
+      },
+      {
+        "type": "fix",
+        "hash": "ace856b",
+        "scope": "ade",
+        "msg": "top bar and status bar count projects and sessions (of the mode on screen), singular for one; one empty state when there is no session"
+      },
+      {
+        "type": "fix",
+        "hash": "dd42f53",
+        "scope": "ade",
+        "msg": "pnpm dev builds the harness with the release's providers; New session says what to do when a harness build offers none"
+      },
+      {
+        "type": "fix",
+        "hash": "aa1c7d3",
+        "scope": "ade",
+        "msg": "New session focuses each step as soon as it is drawn, so a quick second Enter is not lost"
+      },
+      {
+        "type": "feat",
+        "hash": "3979d58",
+        "scope": "ade",
+        "msg": "every Agent-mode rail row shows machine · state · cost · ctx%, local and relayed"
+      },
+      {
+        "type": "perf",
+        "hash": "6037af7",
+        "scope": "ade",
+        "msg": "deck cards keep identity when a fleet poll changes nothing"
+      },
+      {
+        "type": "test",
+        "hash": "385441e",
+        "scope": "ade",
+        "msg": "e2e Agent mode New session → chat → consent → changes → Commit; fixture node answers workspace.commit"
+      },
+      {
+        "type": "feat",
+        "hash": "9f1e334",
+        "scope": "ade",
+        "msg": "New session asks Orrery Cloud whether a remote machine has a default provider; the note shows only when it has none"
+      },
+      {
+        "type": "fix",
+        "hash": "98dd9ee",
+        "scope": "ade",
+        "msg": "a refused POST /control carries the node's x-orrery-code to the webview"
+      },
+      {
+        "type": "feat",
+        "hash": "f63dee5",
+        "scope": "harness",
+        "msg": "orrery config set/unset; providers add --api-key-stdin; ADE passes literal keys on stdin"
+      },
+      {
+        "type": "feat",
+        "hash": "59747af",
+        "scope": "ade",
+        "msg": "Agent mode keys reach the harness session (Ctrl+Enter commit, Ctrl+Shift+K push, O open file); the node's error code read exactly"
+      },
+      {
+        "type": "feat",
+        "hash": "4921c02",
+        "scope": "ade",
+        "msg": "Open file, Commit and Push on a harness session through the node's workspace.* (plan 09 C)"
+      },
+      {
+        "type": "feat",
+        "hash": "7b9340c",
+        "scope": "ade",
+        "msg": "install and update Orrery Harness from Agent mode; harness.bin; supported range (plan 09 F)"
+      },
+      {
+        "type": "fix",
+        "hash": "ec71a52",
+        "scope": "ade",
+        "msg": "the Git files panel stops flickering; idle polls and frames wake nothing"
+      },
+      {
+        "type": "feat",
+        "hash": "21af260",
+        "scope": "ade",
+        "msg": "New session dialog in Agent mode; first-run provider setup through the harness CLI (plan 09 B)"
+      },
+      {
+        "type": "test",
+        "hash": "7bb82fe",
+        "scope": "ade",
+        "msg": "deck spec setup fixture carries diagnosis"
+      },
+      {
+        "type": "feat",
+        "hash": "29fa474",
+        "scope": "ade",
+        "msg": "Agent mode lists harness sessions only; sessions wording; tickets start sessions in Agent mode (plan 09 A)"
+      },
+      {
+        "type": "feat",
+        "hash": "b4bb644",
+        "scope": "dev",
+        "msg": "isolated dev ADE (own harness build, home, identifier); dev:stack loads GITHUB_* from cloud/.env"
+      },
+      {
+        "type": "fix",
+        "hash": "e39f8c5",
+        "scope": "ade",
+        "msg": "total Claude cost keeps its status-bar place when no session count is selected"
+      },
+      {
+        "type": "feat",
+        "hash": "a9706c0",
+        "scope": "ade",
+        "msg": "status bar right side matches T00 order (agent tok·$, orchestrator, LSP, Logs, memory, Dev, version)"
+      },
+      {
+        "type": "fix",
+        "hash": "e8ccc8c",
+        "scope": "visual",
+        "msg": "extension Cancel at template size, attach glyph 15px, install hint in sans"
+      },
+      {
+        "type": "feat",
+        "hash": "e94cd65",
+        "scope": "attach",
+        "msg": "files in the composer, sent as AG-UI content parts (decision 0050)"
+      },
+      {
+        "type": "feat",
+        "hash": "a603b54",
+        "scope": "status-bar",
+        "msg": "orchestrator: healthy | degraded | down (agent runtime lock probe + job object)"
+      },
+      {
+        "type": "feat",
+        "hash": "15f4157",
+        "scope": "extensions",
+        "msg": "Cancel an extension pack download (ext_cancel, partial files removed, row back to Install)"
+      },
+      {
+        "type": "chore",
+        "hash": "dbe92b8",
+        "scope": "ade",
+        "msg": "make cargo clippy -D warnings pass (dead code gated or removed, derives, lint fixes)"
+      },
+      {
+        "type": "refactor",
+        "hash": "cf6f0d0",
+        "scope": "ade",
+        "msg": "data-theme graphite/paper; chat inherits the page theme; session changes list on orr-filetree"
+      },
+      {
+        "type": "feat",
+        "hash": "b29a871",
+        "scope": "chat",
+        "msg": "review card in the Agent-mode thread (App-00 rv.has)"
+      },
+      {
+        "type": "feat",
+        "hash": "9885775",
+        "scope": "ade",
+        "msg": "unsaved-changes guards are orr-dialog-shell sm (tab close and file tab)"
+      },
+      {
+        "type": "test",
+        "hash": "851370c",
+        "scope": "ade",
+        "msg": "spawn dialog is 640 wide per T00; refresh button found by role"
+      },
+      {
+        "type": "feat",
+        "hash": "42e9986",
+        "scope": "ade",
+        "msg": "New ticket dialog; overview and backlog pixel pass vs T00/T02"
+      },
+      {
+        "type": "feat",
+        "hash": "92750f8",
+        "scope": "ade",
+        "msg": "Hide to tray — tray icon (Show / Quit) and the first window-control cell"
+      },
+      {
+        "type": "fix",
+        "hash": "652cda6",
+        "scope": "ade",
+        "msg": "Agent-mode px literals on density tokens (check:tokens 0)"
+      },
+      {
+        "type": "test",
+        "hash": "7b126b3",
+        "scope": "ade",
+        "msg": "e2e selectors for the shared design system (tabs, o-changes list, o-dialog title, Unsaved changes alertdialog, palette edge)"
+      },
+      {
+        "type": "feat",
+        "hash": "e8220be",
+        "scope": "ade",
+        "msg": "Agent mode per T00 — changes column, toolbar, dialogs, rail"
+      },
+      {
+        "type": "test",
+        "hash": "133a6ba",
+        "scope": "ade",
+        "msg": "e2e follow the T00 top bar, status bar and extensions"
+      },
+      {
+        "type": "fix",
+        "hash": "80e497c",
+        "scope": "ade",
+        "msg": "the pane header's own styles (34px row, 24px buttons) were never added"
+      },
+      {
+        "type": "refactor",
+        "hash": "9269d9d",
+        "scope": "ade",
+        "msg": "no kouji override left in the app (check:tokens 0)"
+      },
+      {
+        "type": "feat",
+        "hash": "23ff277",
+        "scope": "ade",
+        "msg": "dialogs on orr-dialog-shell, settings on orr-row / orr-set-group"
+      },
+      {
+        "type": "fix",
+        "hash": "6e71ed0",
+        "scope": "ade",
+        "msg": "restore the IDE-mode changes a concurrent commit reverted"
+      },
+      {
+        "type": "feat",
+        "hash": "74bd3e1",
+        "scope": "cloud",
+        "msg": "Orrery Cloud web and phone on @orrery/styles + @orrery/ui (decision 0010)"
+      },
+      {
+        "type": "feat",
+        "hash": "1e0e7a5",
+        "scope": "ade",
+        "msg": "IDE mode on the T00 sidebar, pane header, code ground and terminal"
+      },
+      {
+        "type": "feat",
+        "hash": "6ca7dff",
+        "scope": "ade",
+        "msg": "top bar, status bar and Needs you on the T00 header"
+      },
+      {
+        "type": "refactor",
+        "hash": "c1d7246",
+        "scope": "ade",
+        "msg": "draw icons, dots, pills, selects, badges and file lists with @orrery/ui"
+      },
+      {
+        "type": "style",
+        "hash": "87ff7fc",
+        "scope": "ade",
+        "msg": "take every token and kouji override from @orrery/styles (decision 0010)"
+      },
+      {
+        "type": "build",
+        "hash": "fd289bf",
+        "scope": "ade",
+        "msg": "depend on @orrery/styles and @orrery/ui (decision 0010)"
+      },
+      {
+        "type": "wip",
+        "hash": "f7a3d3a",
+        "scope": "ade",
+        "msg": "0.25.0 binary rename prepared (mainBinaryName orrery-ade, NSIS hook removes a stale Orrery.exe and repoints shortcuts, relaunch target tested); version unchanged, release waits for 0.24.10 adoption and the user's go-ahead"
+      },
+      {
+        "type": "wip",
+        "hash": "344b2ba",
+        "scope": "platform",
+        "msg": "security L1–L8, I1–I3, I6–I8 — Bearer-only CSRF skip, replay hash on bytes, repo/branch validated server-side, single-use relay tickets with expires_at, ADE mints tickets in Rust, docker-socket guard by path, https-only installs, mise sha256, magic-link confirm page with POST, digest compare, symlink refusal, metrics token behind proxies"
+      },
+      {
+        "type": "test",
+        "hash": "1ef5a24",
+        "scope": "ade, ink",
+        "msg": "release-gate fixes — spec races and stale expectations (line endings, index warm-up, Pi chip, 600px dialog, palette highlight); Ink unmount unwatch failure caught"
+      },
+      {
+        "type": "wip",
+        "hash": "05e4f09",
+        "scope": "ade",
+        "msg": "one header in the Deck (chat banner off, Stop by the composer), kouji-ui default button variant in @orrery/chat, elapsed time shows — for unknown starts and days above 48 h"
+      },
+      {
+        "type": "wip",
+        "hash": "de39c4c",
+        "scope": "ade",
+        "msg": "agent mode matched to the artboards — Paper theme fixes (chat code, terminal, boot), Deck header/cards/empty states, skeletons, tokens; design-audit.md"
+      },
+      {
+        "type": "wip",
+        "hash": "ed2cdaa",
+        "scope": "ade",
+        "msg": "external agents' Changes opens the in-place review in agent mode; Full IDE is a secondary action"
+      },
+      {
+        "type": "wip",
+        "hash": "e46e88e",
+        "scope": "ade",
+        "msg": "changes review opens in place in agent mode (files + diff on the chat's edit card, harness_file_diff for local sessions); deck setup state seen live; sessions.new refusal no longer falls back silently"
+      },
+      {
+        "type": "wip",
+        "hash": "c031124",
+        "scope": "platform",
+        "msg": "relay limits (size, rate, clients, sessions, sockets, hello/idle timeouts), client tokens expire after 30 idle days, token_expired surfaced in CLI/ADE/web"
+      },
+      {
+        "type": "wip",
+        "hash": "6ef1afd",
+        "scope": "platform",
+        "msg": "ADE verified in the running app against the real stack; stale node port, wrong repo on a relayed machine, hidden sessions.new refusal fixed"
+      },
+      {
+        "type": "wip",
+        "hash": "735954d",
+        "scope": "platform",
+        "msg": "live changes and setup progress in every client"
+      },
+      {
+        "type": "wip",
+        "hash": "6e09e78",
+        "scope": "platform",
+        "msg": "ADE — Deck, Needs you, keymap presets, Orrery Cloud sign-in and relayed sessions, update flow (plan 05)"
+      },
+      {
+        "type": "wip",
+        "hash": "f3936ef",
+        "scope": "platform",
+        "msg": "ADE — harness chat tab on the local node or a relayed machine, new design alignment (plan 05)"
+      },
+      {
+        "type": "fix",
+        "hash": "8ee137c",
+        "scope": "ade",
+        "msg": "stage the updater stub from $CARGO_TARGET_DIR when it is set"
+      },
+      {
+        "type": "chore",
+        "hash": "ea1245b",
+        "scope": "design",
+        "msg": "move design/ out of ade/ to the repo root, sync Orrery marks"
+      },
+      {
+        "type": "chore",
+        "hash": "d460433",
+        "scope": "",
+        "msg": "@ chore(scripts): the artefact cleaner, and two ignore rules it needed"
+      },
+      {
+        "type": "build",
+        "hash": "be2b8c5",
+        "scope": "repo",
+        "msg": "cargo workspace at the root, ADE renamed to orrery-ade"
+      },
+      {
+        "type": "refactor",
+        "hash": "72f2374",
+        "scope": "repo",
+        "msg": "move the Tauri + Angular app under ade/"
+      },
+      {
+        "type": "chore",
+        "hash": "af79796",
+        "scope": "repo",
+        "msg": "untrack build artefacts, drop .clone, un-anchor gitignore"
+      }
+    ]
+  },
+  {
     "tag": "v0.24.9",
     "channel": "beta",
     "date": "September 19, 2026",
