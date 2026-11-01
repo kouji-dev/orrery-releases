@@ -31,3 +31,45 @@
 
   Once that's committed (creating the main branch) and you've pasted me the public key from Step 2, I'll wire up tauri.conf.json and run
   the final review.
+
+## List an extension
+
+`extensions.json` is Orrery's extension list. The gallery reads it, and
+`orrery install <id>` looks names up in it, from
+`https://raw.githubusercontent.com/kouji-dev/orrery-releases/main/extensions.json`.
+
+To list yours:
+
+1. Publish it where `orrery install` can fetch it: npm, crates.io, or a git
+   repository, with `orrery.toml` at the package root. Check it with
+   `orrery ext test .` and `orrery install <your source>`.
+2. Fork this repository, add one entry to the `extensions` array, and open a
+   pull request into `main`:
+
+   ```json
+   {
+     "id": "buildgraph",
+     "name": "Buildgraph",
+     "description": "Answers which targets a change rebuilds, from the build graph.",
+     "author": "your-github-login",
+     "source": "npm:orrery-ext-buildgraph",
+     "repository": "https://github.com/you/buildgraph",
+     "version": "1.2.0",
+     "keywords": ["build"],
+     "capabilities": ["read", "spawn"]
+   }
+   ```
+
+   `id` is the bare name (`orrery install buildgraph`), lowercase letters,
+   digits and `-`, unique. `source` is `npm:<pkg>`, `crate:<name>` or a git URL.
+   `keywords` and `capabilities` are optional; everything else is required.
+3. The `extensions` check validates the file (`python3 scripts/check_extensions.py`).
+   A maintainer merges.
+
+A new version is a pull request that changes `version`; delisting is one that
+removes the entry. Report a listed extension with an issue here.
+
+**Limits:** the list is not signed and not a code review; it is trusted because
+only maintainers push to `main`, and it is read over HTTPS. A bare name installs
+the entry's source unpinned, with the grant prompt. Raw files are cached for a
+few minutes after a merge.
