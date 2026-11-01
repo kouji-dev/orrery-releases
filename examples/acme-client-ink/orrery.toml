@@ -1,0 +1,45 @@
+# `acme-client-ink`: a person's own client on the Ink library, and the element
+# it adds (decision 0093, plan 42 W4.1). The Ink twin of `../acme-client`:
+#
+# - `[[provides.elements]] acme-ink.gantt`: the element, its props schema and its
+#   fallback (a table): `acme-client`'s props under its own id, so the two
+#   install side by side.
+# - `[[provides.clients]] acme-ink`: the Orrery Ink TUI built as a library,
+#   plus a Gantt chart for `acme-ink.gantt` (src/main.tsx).
+#
+#     pnpm -C harness/extensions/examples/acme-client-ink install --ignore-workspace
+#     pnpm -C harness/extensions/examples/acme-client-ink run build
+#     orrery install ./harness/extensions/examples/acme-client-ink
+#     orrery --ui acme-ink
+
+[extension]
+api = "orrery-ext/1"
+name = "acme-client-ink"
+version = "0.1.0"
+runtime = "node"
+
+[[provides.elements]]
+id = "acme-ink.gantt"
+props = "gantt.schema.json"
+fallback = "table"
+fixture = "fixtures/acme-ink.gantt.json"
+
+[[provides.clients]]
+id = "acme-ink"
+label = "Acme (the Ink TUI with a Gantt chart)"
+role = "human"
+entry = "dist/main.js"
+# Its fixtures: `orrery install` hands the client `fixtures/acme-ink.gantt.json`
+# in probe mode (`ORRERY_CONFORMANCE=1`), and the Gantt component answers it.
+fixtures = "fixtures"
+# Everything the Ink library draws (the required set included), plus `acme-ink.gantt`.
+draws = ["layout", "banner", "thread", "message", "dock", "input", "footer", "status",
+         "fullscreen", "overlay", "consent", "trust", "exit", "toast", "notify", "retry",
+         "update", "mode", "button", "list", "command", "collapsible", "row", "column",
+         "box", "divider", "tabs", "heading", "text", "badge", "callout", "kv",
+         "link", "code", "markdown", "table", "tree", "stream", "stat", "files",
+         "form", "textarea", "question", "progress", "task", "chart", "image", "raster",
+         "diff", "custom", "acme-ink.gantt"]
+
+[grants]
+client = ["draw", "consent", "tty"]

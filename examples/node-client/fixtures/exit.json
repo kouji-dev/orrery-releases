@@ -1,0 +1,29 @@
+{
+ "base": {
+  "harness": "payments-agent",
+  "rows": [
+   [
+    "duration",
+    "1h 12m"
+   ],
+   [
+    "cost",
+    "$3.18 · 412k tokens"
+   ],
+   [
+    "files",
+    "3 changed (+31 −4)"
+   ]
+  ],
+  "resume": "orrery --resume 7f3a2c"
+ },
+ "states": {
+  "default": {},
+  "empty": {
+   "harness": null
+  },
+  "error": {
+   "error": "Session not saved: ~/.orrery is full. Free space; the transcript is printed above."
+  }
+ }
+}

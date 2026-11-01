@@ -1,0 +1,72 @@
+{
+ "base": {
+  "mode": "default",
+  "footer": {
+   "hints": "shift+tab mode",
+   "tokens": "41.2k",
+   "cost": "$0.46",
+   "model": "claude-opus-4.1",
+   "mode": "default"
+  }
+ },
+ "states": {
+  "default": {},
+  "focused": {
+   "mode": "accept",
+   "footer": {
+    "hints": "shift+tab mode",
+    "tokens": "41.2k",
+    "cost": "$0.46",
+    "model": "claude-opus-4.1",
+    "mode": "accept"
+   }
+  },
+  "plan": {
+   "mode": "plan",
+   "footer": {
+    "hints": "shift+tab mode",
+    "tokens": "41.2k",
+    "cost": "$0.46",
+    "model": "claude-opus-4.1",
+    "mode": "plan"
+   }
+  },
+  "bypass": {
+   "mode": "bypass",
+   "footer": {
+    "hints": "shift+tab mode",
+    "tokens": "41.2k",
+    "cost": "$0.46",
+    "model": "claude-opus-4.1",
+    "mode": "bypass"
+   }
+  },
+  "all modes": {
+   "state": "all"
+  },
+  "error": {
+   "mode": "bypass",
+   "state": "error",
+   "note": "Bypass is off for this org (policy.toml). Use accept edits, or ask an admin.",
+   "footer": {
+    "hints": "shift+tab mode",
+    "tokens": "41.2k",
+    "cost": "$0.46",
+    "model": "claude-opus-4.1",
+    "mode": "bypass"
+   }
+  },
+  "disabled": {
+   "mode": "accept",
+   "state": "locked",
+   "note": "mode is locked while the consent bar is open",
+   "footer": {
+    "hints": "mode locked|y|n",
+    "tokens": "41.2k",
+    "cost": "$0.46",
+    "model": "claude-opus-4.1",
+    "mode": "accept"
+   }
+  }
+ }
+}

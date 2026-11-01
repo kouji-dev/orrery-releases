@@ -1,0 +1,19 @@
+api = "orrery-ext/1"
+runtime = "process"
+
+[extension]
+id = "example-workspace-census"
+version = "0.0.0"
+
+[provides]
+tools = ["census"]
+
+# It is handed its rows and describes them. No files, no processes, no network:
+# a ported extension that needed a grant to draw would be drawing.
+[requires]
+
+# Its own process (decision 0066 §1): the executable beside this file, on the
+# per-spawn pipe.
+[process]
+command = "./workspace-census"
+channel = "pipe"

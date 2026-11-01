@@ -1,0 +1,25 @@
+{
+ "base": {
+  "path": "~/northwind/payments",
+  "hooks": [
+   "pre-edit.sh",
+   "post-turn.sh"
+  ],
+  "mcp": [
+   "github",
+   "linear",
+   "postgres"
+  ],
+  "selected": 0
+ },
+ "states": {
+  "default": {},
+  "focused": {
+   "selected": 1
+  },
+  "error": {
+   "selected": 1,
+   "error": ".orrery/hooks/pre-edit.sh is world-writable. Run chmod 700 on it before trusting."
+  }
+ }
+}

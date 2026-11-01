@@ -1,0 +1,11 @@
+{
+  "workflow": "build",
+  "status": "failed",
+  "failed": 1,
+  "total": 3,
+  "jobs": [
+    { "name": "lint", "status": "passed" },
+    { "name": "test", "status": "failed" },
+    { "name": "build", "status": "passed" }
+  ]
+}

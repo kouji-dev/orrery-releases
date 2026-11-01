@@ -1,0 +1,51 @@
+# The worked example for plan 36 task 11: one package, three contributions - a
+# client, two tools and an element - the way a stranger ships them. Nothing
+# here is privileged; this is the same file ratatui and Ink have, with
+# different words in it.
+#
+#     orrery install ./harness/extensions/examples/node-client
+#     orrery --ui example          # the client
+#     orrery ext show example-client
+#
+# Every Tier 1 element is required of a client (plan 36): `draws` lists all of
+# them, and leaving one out is an error naming it, at install and at attach. To
+# see that error, delete an id from `draws` below and install again.
+
+[extension]
+api     = "orrery-ext/1"
+name    = "example-client"
+version = "0.1.0"
+runtime = "node"
+
+# Two tools, served by index.mjs like any node extension.
+[provides]
+tools = ["word_count", "slug"]
+
+# One client. `entry` is what the host starts; `fixtures` is a directory of
+# conformance fixtures, one <element>.json per element it claims, which
+# `orrery install` hands the client in probe mode (client.mjs answers through
+# `draw`). A claim that fails counts as not drawn; a required one refuses the
+# install. layout, fullscreen and overlay have no props, so no fixture.
+[[provides.clients]]
+id       = "example"
+label    = "Example (plain text)"
+role     = "named"
+entry    = "client.mjs"
+fixtures = "fixtures"
+# Every element it draws: all of Tier 1, plus the one this package provides.
+draws = ["layout", "banner", "thread", "message", "dock", "input", "footer", "status",
+         "fullscreen", "overlay", "consent", "trust", "toast", "retry", "update",
+         "exit", "notify", "mode", "example.note"]
+
+# One element this package provides: an id, a fixture, and `fallback`, the core
+# element that stands for it (declared; the host does not send it to a client
+# today - plan 36's scope change dropped fallback sending).
+[[provides.elements]]
+id       = "example.note"
+fallback = "text"
+fixture  = "fixtures/example.note.json"
+
+# draw: receive frames and send intents. consent: answer an ask (it draws the
+# consent element). tty: it is handed the terminal.
+[grants]
+client = ["draw", "consent", "tty"]

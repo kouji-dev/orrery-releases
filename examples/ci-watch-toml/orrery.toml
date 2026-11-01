@@ -1,0 +1,33 @@
+# CI watch, declared (plan 42 W5.2; decision 0092 §3): no process, no code.
+# The host shows the `ci` component in the right pane, feeds it from
+# `.ci/status.json` in the workspace, and runs the actions below.
+# The code-mode twin, with the same panel, is ../ci-watch.
+[extension]
+api     = "orrery-ext/1"
+name    = "ci-watch-toml"
+version = "0.1.0"
+runtime = "none"
+
+[requires]
+read = ["$WORKSPACE/.ci/**"]
+"run.send" = true
+
+[[provides.components]]
+name    = "ci"
+summary = "The last CI run: its status, its jobs (choose one to rerun it) and a button to explain it"
+file    = "ci.json"
+schema  = { type = "object", properties = { workflow = { type = "string", default = "CI" }, status = { type = "string", default = "unknown" }, failed = { type = "integer", default = 0 }, total = { type = "integer", default = 0 }, jobs = { type = "array", default = [], items = { type = "object", properties = { name = { type = "string" }, status = { type = "string" } } } } } }
+
+[[provides.placements]]
+id        = "ci"
+placement = "pane.right"
+title     = "CI"
+component = "ci"
+data      = { file = ".ci/status.json" }
+
+# A chosen job: `${value}` is the list item's `value`, the job's name.
+[provides.actions.rerun]
+send = "Rerun the CI job ${value} and tell me whether it passes now"
+
+[provides.actions.explain]
+send = "Explain why CI failed, from .ci/status.json"

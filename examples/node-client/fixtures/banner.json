@@ -1,0 +1,28 @@
+{
+ "base": {
+  "harness": "payments-agent",
+  "version": "0.9.2",
+  "path": "~/northwind/payments",
+  "branch": "fix/stripe-retry",
+  "trusted": true,
+  "model": "claude-opus-4.1",
+  "provider": "anthropic",
+  "state": "idle"
+ },
+ "states": {
+  "default": {},
+  "loading": {
+   "state": "loading"
+  },
+  "empty": {
+   "model": null
+  },
+  "error": {
+   "state": "error",
+   "error": "harness.toml:12 unknown key \"toolz\". Fix it, then /reload"
+  },
+  "disabled": {
+   "trusted": false
+  }
+ }
+}

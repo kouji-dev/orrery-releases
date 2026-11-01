@@ -1,0 +1,26 @@
+{
+ "base": {
+  "latest": "0.10.0",
+  "current": "0.9.2"
+ },
+ "states": {
+  "default": {},
+  "focused": {
+   "selected": true
+  },
+  "loading": {
+   "state": "installing",
+   "progress": 40
+  },
+  "done": {
+   "state": "done"
+  },
+  "error": {
+   "state": "failed",
+   "error": "Update failed: /usr/local/bin is not writable. Run brew upgrade orrery, or /update --user."
+  },
+  "disabled": {
+   "state": "managed"
+  }
+ }
+}

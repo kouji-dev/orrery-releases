@@ -1,0 +1,24 @@
+{
+ "base": {
+  "text": "network unreachable · retry 2/5 in",
+  "countdown": "8s",
+  "left": 4
+ },
+ "states": {
+  "default": {},
+  "rate limit": {
+   "word": "rate limit",
+   "text": "anthropic rate limit · retry 2/5 in",
+   "countdown": "12s",
+   "left": 6
+  },
+  "loading": {
+   "state": "retrying",
+   "text": "retrying anthropic · attempt 3/5"
+  },
+  "error": {
+   "state": "gave-up",
+   "text": "Gave up after 5 attempts (network unreachable). Check your connection; r tries again, /model switches provider."
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "base": {
+  "title": "Set up Gemini",
+  "step": "2/3",
+  "state": "asking",
+  "prompt": "Which models should Orrery use?",
+  "selected": 0,
+  "items": [
+   {
+    "label": "gemini-2.5-pro",
+    "detail": "1M ctx · $1.25 / $10"
+   },
+   {
+    "label": "gemini-2.5-flash",
+    "detail": "1M ctx · $0.30 / $2.50"
+   },
+   {
+    "label": "gemini-2.0-flash",
+    "detail": "1M ctx · $0.10 / $0.40"
+   }
+  ]
+ },
+ "states": {
+  "default": {},
+  "focused": {
+   "selected": 1
+  },
+  "loading": {
+   "state": "busy",
+   "prompt": "Checking the key with Google…",
+   "busy": "GET /v1beta/models"
+  },
+  "empty": {
+   "state": "empty",
+   "prompt": "No models are available for this key.",
+   "note": "Enable the Generative Language API in your Google Cloud project, then press r to check again."
+  },
+  "error": {
+   "state": "error",
+   "step": "1/3",
+   "prompt": "Paste your Gemini API key",
+   "error": "Google rejected the key (401). Copy a new one from aistudio.google.com/apikey and paste it below."
+  },
+  "disabled": {
+   "state": "locked",
+   "step": "3/3",
+   "prompt": "Pick a default model",
+   "note": "finish step 2 (API key) first"
+  },
+  "answered": {
+   "state": "answered",
+   "summary": "key saved · 2 models"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "acme-client-ink",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A person's own client on @getorrery/client-ink (decision 0093): the Ink TUI plus a Gantt chart for acme-ink.gantt.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "build": "esbuild src/main.tsx --bundle --platform=node --format=esm --target=node20 --alias:react-devtools-core=@getorrery/client-ink/src/devtools-stub.ts --banner:js=\"import{createRequire as __cr}from'node:module';const require=__cr(import.meta.url);\" --external:@resvg/resvg-js --outfile=dist/main.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@getorrery/client-ink": "link:../../../clients/ink",
+    "ink": "^5.1.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "esbuild": "^0.25.12",
+    "typescript": "^5.9.3"
+  }
+}

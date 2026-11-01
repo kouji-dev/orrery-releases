@@ -1,0 +1,51 @@
+{
+ "base": {
+  "focus": true,
+  "placeholder": "Ask anything · / commands · @ files · ! shell",
+  "hint": "enter send|shift+enter newline|↑ history"
+ },
+ "states": {
+  "default": {
+   "focus": false
+  },
+  "focused": {
+   "text": "add retries to the stripe webhook"
+  },
+  "loading": {
+   "placeholder": "Turn running · enter queues, ctrl+enter steers",
+   "hint": "enter queue|ctrl+enter steer|esc stop"
+  },
+  "empty": {},
+  "error": {
+   "text": "[pasted 2.1 MB]",
+   "error": "Paste is 2.1 MB, over the 1 MB limit. Save it to a file and @mention it."
+  },
+  "disabled": {
+   "disabled": true,
+   "placeholder": "answer the consent bar above to continue"
+  },
+  "secret": {
+   "label": "Gemini API key",
+   "secret": true,
+   "text": "AIzaSyD8x2kPq7mN0vR4tW9cfa3f9a",
+   "hint": "enter save|ctrl+v paste|esc cancel"
+  },
+  "answer": {
+   "label": "Project ID",
+   "text": "northwind-prod",
+   "hint": "enter answer|esc skip"
+  },
+  "multi-line": {
+   "lines": [
+    "refactor withRetry so that:",
+    "- the base delay is configurable",
+    "- it logs each attempt"
+   ]
+  },
+  "paste": {
+   "chip": "[pasted 214 lines]",
+   "text": "why does this fail?",
+   "hint": "enter send|backspace drop paste"
+  }
+ }
+}

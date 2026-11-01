@@ -1,0 +1,21 @@
+# The Rust worked example. Plan 18, task 4.
+#
+# Identical in shape to every other extension manifest in the tree: the same
+# parser reads it, the same loader acts on it. `runtime = "native"` is retired
+# (decision 0066 §1): it runs as its own process, and only `orrery-harness`'s
+# parity test links it in process.
+api = "orrery-ext/1"
+runtime = "process"
+
+[extension]
+id = "hello"
+version = "0.1.0"
+
+[provides]
+tools = ["parity"]
+
+# Its own process (decision 0066 §1): the executable beside this file, on the
+# per-spawn pipe.
+[process]
+command = "./native-hello"
+channel = "pipe"
