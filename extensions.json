@@ -8,13 +8,13 @@
         "read",
         "write"
       ],
-      "description": "Decision 0021: agents as Markdown files, run through core; one command per agent, /agents, /agents create.",
+      "description": "Agents written as Markdown files, each one a slash command, plus /agents to create and list them.",
       "id": "agents",
       "kinds": [],
       "name": "Agents",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#agents@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#agents@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -22,15 +22,15 @@
       "author": "kouji-dev",
       "builtin": true,
       "capabilities": [],
-      "description": "The shipped role agents: planner, executor, verifier, compactor and summariser.",
+      "description": "The planner, executor, verifier, compactor and summariser agents Orrery starts with.",
       "id": "agents-default",
       "kinds": [
         "agents"
       ],
-      "name": "Agents Default",
+      "name": "Default agents",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#agents-default@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#agents-default@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -41,15 +41,15 @@
         "net",
         "creds"
       ],
-      "description": "The Anthropic Messages provider: request builder, SSE parser, tool-use blocks, cache_control and usage.",
+      "description": "Claude models through the Anthropic Messages API, with tool use, prompt caching and usage.",
       "id": "anthropic",
       "kinds": [
         "provider"
       ],
       "name": "Anthropic",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#anthropic@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#anthropic@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -61,15 +61,15 @@
         "write",
         "spawn"
       ],
-      "description": "The built-in tool bundle: read, write, edit, bash, grep and glob, shipped as a first-party extension like any other.",
+      "description": "Read, write, edit, bash, grep and glob: the file and shell tools an agent works with.",
       "id": "builtin",
       "kinds": [
         "tools"
       ],
-      "name": "Builtin",
+      "name": "Built-in tools",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#builtin@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#builtin@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -79,15 +79,15 @@
       "capabilities": [
         "read"
       ],
-      "description": "A scripted provider that replays a recorded ModelEvent stream from a .jsonl file. Deterministic, no API key.",
+      "description": "Replays a recorded model stream from a file, for tests and demos with no API key.",
       "id": "fixture",
       "kinds": [
         "provider"
       ],
-      "name": "Fixture",
+      "name": "Fixture provider",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#fixture@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#fixture@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -98,15 +98,15 @@
         "net",
         "creds"
       ],
-      "description": "Google Gemini on its native generateContent API, as an Orrery provider: one host, one credential.",
+      "description": "Google Gemini models through the native Gemini API, with one host and one key.",
       "id": "gemini",
       "kinds": [
         "provider"
       ],
       "name": "Gemini",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#gemini@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#gemini@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -118,15 +118,15 @@
         "write",
         "spawn"
       ],
-      "description": "Git tools over gitoxide, reusing the knowledge in ade/src-tauri/src/git/.",
+      "description": "Git status, diffs, commits and branches as agent tools, without a git install.",
       "id": "git",
       "kinds": [
         "tools"
       ],
       "name": "Git",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#git@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#git@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -137,13 +137,13 @@
         "spawn",
         "read"
       ],
-      "description": "The built-in graders: command, assertion and model.",
+      "description": "Grade a run by a command, an assertion or a model, for evals and checks.",
       "id": "graders",
       "kinds": [],
       "name": "Graders",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#graders@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#graders@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -154,15 +154,15 @@
         "read",
         "spawn"
       ],
-      "description": "Language-server tools: hover, definitions, references and diagnostics over a managed LSP client.",
+      "description": "Hover, definitions, references and diagnostics from your language servers.",
       "id": "lsp",
       "kinds": [
         "tools"
       ],
-      "name": "Lsp",
+      "name": "LSP",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#lsp@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#lsp@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -172,15 +172,15 @@
       "capabilities": [
         "net"
       ],
-      "description": "Ollama, as an Orrery provider: localhost:11434, no credential, and a grant that asks for nothing else.",
+      "description": "Local models served by Ollama on this machine, with no key and no network.",
       "id": "ollama",
       "kinds": [
         "provider"
       ],
       "name": "Ollama",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#ollama@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#ollama@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -191,15 +191,15 @@
         "net",
         "creds"
       ],
-      "description": "OpenAI on its native Responses API, as an Orrery provider: one host, one credential, reasoning replayed.",
+      "description": "OpenAI models through the Responses API, with reasoning carried across turns.",
       "id": "openai",
       "kinds": [
         "provider"
       ],
-      "name": "Openai",
+      "name": "OpenAI",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#openai@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#openai@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -210,15 +210,15 @@
         "net",
         "creds"
       ],
-      "description": "Any OpenAI-compatible chat-completions endpoint you configure, as an Orrery provider.",
+      "description": "Any OpenAI-compatible chat endpoint you point it at, local or hosted.",
       "id": "openai-compat",
       "kinds": [
         "provider"
       ],
-      "name": "Openai Compat",
+      "name": "OpenAI-compatible",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#openai-compat@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#openai-compat@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -226,15 +226,15 @@
       "author": "kouji-dev",
       "builtin": true,
       "capabilities": [],
-      "description": "The default Orrery TUI as a library: `Client::builder().component(..).run()` for your own client, and the `orrery-ratatui` executable that is that builder with no components.",
+      "description": "The default terminal interface: the conversation, prompts, panes and keys.",
       "id": "ratatui",
       "kinds": [
         "client"
       ],
-      "name": "Ratatui",
+      "name": "Terminal UI",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#ratatui@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#ratatui@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -242,15 +242,15 @@
       "author": "kouji-dev",
       "builtin": true,
       "capabilities": [],
-      "description": "Sub-agents as an extension (decision 0009): a spawn_agents tool over core's agent tree, with the argument resolution and caps of decision 0010.",
+      "description": "Lets an agent start sub-agents for parallel work, with limits on how many and how deep.",
       "id": "subagents",
       "kinds": [
         "tools"
       ],
-      "name": "Subagents",
+      "name": "Sub-agents",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#subagents@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#subagents@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -258,13 +258,13 @@
       "author": "kouji-dev",
       "builtin": true,
       "capabilities": [],
-      "description": "The worked example of decision 0010: shared state, exposed actions and a command, registered at runtime.",
+      "description": "Switch the colour theme with a command, and a worked example of shared state and actions.",
       "id": "theme",
       "kinds": [],
       "name": "Theme",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#theme@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#theme@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -272,15 +272,15 @@
       "author": "kouji-dev",
       "builtin": true,
       "capabilities": [],
-      "description": "The default view bindings: assistant text, tool started and settled, consent prompts and errors.",
+      "description": "How replies, tool calls, consent prompts and errors are shown in a session.",
       "id": "views-default",
       "kinds": [
         "ui"
       ],
-      "name": "Views Default",
+      "name": "Default views",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#views-default@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#views-default@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -290,15 +290,15 @@
       "capabilities": [
         "net"
       ],
-      "description": "vLLM, as an Orrery provider: localhost:8000, no credential, and a grant that asks for nothing else.",
+      "description": "Models served by a local vLLM server, with no key and no other network.",
       "id": "vllm",
       "kinds": [
         "provider"
       ],
-      "name": "Vllm",
+      "name": "vLLM",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#vllm@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#vllm@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     },
@@ -306,13 +306,13 @@
       "author": "kouji-dev",
       "builtin": true,
       "capabilities": [],
-      "description": "Steps, branch runs on leases, the workflow machine, and load-time dataflow typechecking.",
+      "description": "Multi-step workflows with parallel branches, checked for type errors before they run.",
       "id": "workflows",
       "kinds": [],
       "name": "Workflows",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#workflows@0.2.2",
-      "version": "0.2.2",
+      "source": "github:kouji-dev/orrery-releases#workflows@0.2.3",
+      "version": "0.2.3",
       "added": "2026-11-02",
       "updated": "2026-11-02"
     }
