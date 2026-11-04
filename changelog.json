@@ -1,5 +1,74 @@
 [
   {
+    "tag": "v0.26.0",
+    "channel": "beta",
+    "date": "November 4, 2026",
+    "ref": "cd53acd",
+    "summary": "the ADE releases for Windows from the owner's PC, Mac by hand on GitHub",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "09badb6",
+        "scope": "ade",
+        "msg": "@getorrery/* 0.3.2"
+      },
+      {
+        "type": "fix",
+        "hash": "78c0112",
+        "scope": "ade",
+        "msg": "the update toast's gap and the dialog label row; specs follow the agent order"
+      },
+      {
+        "type": "feat",
+        "hash": "7b9ce3d",
+        "scope": "release",
+        "msg": "the ADE releases for Windows from the owner's PC, Mac by hand on GitHub"
+      },
+      {
+        "type": "feat",
+        "hash": "aacf616",
+        "scope": "ade",
+        "msg": "the Monogram as the installed icon, with its own macOS master, and existing installs moved to it on first launch"
+      },
+      {
+        "type": "chore",
+        "hash": "cb8b67a",
+        "scope": "ade",
+        "msg": "@getorrery/* 0.3.1, and the harness range the ADE really supports"
+      },
+      {
+        "type": "feat",
+        "hash": "aba3286",
+        "scope": "ade",
+        "msg": "one platform layer, and the ADE as a Mac app (decisions 0001-0003)"
+      },
+      {
+        "type": "docs",
+        "hash": "0e33b7f",
+        "scope": "ade",
+        "msg": "platform layer and macOS: decisions 0001-0003, the plan, the Platforms page, keys on macOS"
+      },
+      {
+        "type": "feat",
+        "hash": "2b87461",
+        "scope": "ade",
+        "msg": "Add-ons, Orrery in spawn and Settings, searchable dropdowns, toasts, Cloud retries capped"
+      },
+      {
+        "type": "feat",
+        "hash": "68e6a3b",
+        "scope": "ade",
+        "msg": "Orrery as an agent, projects by last activity, local and remote branches, a faster start, a dev build apart from the release"
+      },
+      {
+        "type": "chore",
+        "hash": "594d9e4",
+        "scope": "",
+        "msg": "@getorrery/* from npm, no vendor/ copy"
+      }
+    ]
+  },
+  {
     "tag": "v0.25.1",
     "channel": "beta",
     "date": "November 1, 2026",
