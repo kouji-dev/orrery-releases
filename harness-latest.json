@@ -1,27 +1,27 @@
 {
-  "version": "0.2.3",
-  "tag": "harness-v0.2.3",
-  "pub_date": "2026-11-02T17:39:41Z",
+  "version": "0.3.1",
+  "tag": "harness-v0.3.1",
+  "pub_date": "2026-11-04T11:39:07Z",
   "targets": {
     "aarch64-apple-darwin": {
-      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.2.3/orrery-0.2.3-aarch64-apple-darwin.tar.gz",
-      "sha256": "f39f4f130a3de9e9a7f39d7f5eac08b4499b2102495814391c3885c696b8ed61",
-      "size": 20018650
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.3.1/orrery-0.3.1-aarch64-apple-darwin.tar.gz",
+      "sha256": "bfb66abaf38c8cb4324601d891f9306316090b358829868ea1552ed019768da1",
+      "size": 20057732
     },
     "aarch64-unknown-linux-musl": {
-      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.2.3/orrery-0.2.3-aarch64-unknown-linux-musl.tar.gz",
-      "sha256": "4b4cd76237755f5d2c515ff8985972465bb6ae0b2c67ce09289f97461f4fc3a7",
-      "size": 20443224
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.3.1/orrery-0.3.1-aarch64-unknown-linux-musl.tar.gz",
+      "sha256": "15b28d0b316dba0b3ad3dbdb37f02b49ae99d8ae67ceaede8109db4b72fe44fe",
+      "size": 20475932
     },
     "x86_64-pc-windows-msvc": {
-      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.2.3/orrery-0.2.3-x86_64-pc-windows-msvc.zip",
-      "sha256": "0374cf102d99e9b2a061ec1852edc675d833d8dc4aa6b061bdc0a703ce439e41",
-      "size": 22918768
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.3.1/orrery-0.3.1-x86_64-pc-windows-msvc.zip",
+      "sha256": "a2b91ab0c4f16725b37eaadd6a34193b494636526008a83a94209523de2872b1",
+      "size": 22967851
     },
     "x86_64-unknown-linux-musl": {
-      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.2.3/orrery-0.2.3-x86_64-unknown-linux-musl.tar.gz",
-      "sha256": "caed5f924c467597a277c66552ecf823d63b4ee7cacc625898f37247f1da96ce",
-      "size": 21882761
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/harness-v0.3.1/orrery-0.3.1-x86_64-unknown-linux-musl.tar.gz",
+      "sha256": "bd27383e7d38db4fdc7f241646578036a0f933fef703a335e7133f1e6fe02088",
+      "size": 21908202
     }
   }
 }
