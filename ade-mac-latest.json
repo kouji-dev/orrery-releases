@@ -1,0 +1,12 @@
+{
+  "version": "0.26.0",
+  "notes": "- chore(ade): @getorrery/* 0.3.2\n- fix(ade): the update toast's gap and the dialog label row; specs follow the agent order\n- feat(release): the ADE releases for Windows from the owner's PC, Mac by hand on GitHub\n- feat(ade): the Monogram as the installed icon, with its own macOS master, and existing installs moved to it on first launch\n- chore(ade): @getorrery/* 0.3.1, and the harness range the ADE really supports\n- feat(ade): one platform layer, and the ADE as a Mac app (decisions 0001-0003)\n- docs(ade): platform layer and macOS: decisions 0001-0003, the plan, the Platforms page, keys on macOS\n- feat(ade): Add-ons, Orrery in spawn and Settings, searchable dropdowns, toasts, Cloud retries capped\n- feat(ade): Orrery as an agent, projects by last activity, local and remote branches, a faster start, a dev build apart from the release\n- chore: @getorrery/* from npm, no vendor/ copy",
+  "pub_date": "2026-11-04T21:23:20.252Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbE1PY1lBaHB5eFU2WHIweTNJMmgvQS9zWE54aWd3VTVNRGFtalZWMmFxcUtYbzQ3SEtCTnROOTlMUVVSVzJ5V3BWMmxKR1dOd0RuMGxBVlRkVk90ajNFRFEwZDBaeHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI3MzkyCWZpbGU6T3JyZXJ5LmFwcC50YXIuZ3oKLy9ac2tmdTFqOUNOYlFiWEIwTGlQYzJQc09HVElYeUwxZUpYSjNGang4Qk9abmJMOWNDYjhUNnYwRTZTVWpFdjQ1a0RuS1dRSG1OOGljVUx2dXhTQ0E9PQo=",
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.26.0/Orrery.app.tar.gz"
+    }
+  },
+  "dmg": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.26.0/Orrery_0.26.0_aarch64.dmg"
+}
