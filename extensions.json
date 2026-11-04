@@ -13,10 +13,10 @@
       "kinds": [],
       "name": "Agents",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#agents@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#agents@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -29,10 +29,10 @@
       ],
       "name": "Default agents",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#agents-default@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#agents-default@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -48,10 +48,10 @@
       ],
       "name": "Anthropic",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#anthropic@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#anthropic@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -68,10 +68,10 @@
       ],
       "name": "Built-in tools",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#builtin@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#builtin@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -86,10 +86,10 @@
       ],
       "name": "Fixture provider",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#fixture@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#fixture@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -105,10 +105,10 @@
       ],
       "name": "Gemini",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#gemini@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#gemini@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -125,10 +125,10 @@
       ],
       "name": "Git",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#git@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#git@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -142,10 +142,10 @@
       "kinds": [],
       "name": "Graders",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#graders@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#graders@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -161,10 +161,10 @@
       ],
       "name": "LSP",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#lsp@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#lsp@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -179,10 +179,10 @@
       ],
       "name": "Ollama",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#ollama@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#ollama@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -198,10 +198,10 @@
       ],
       "name": "OpenAI",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#openai@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#openai@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -217,10 +217,10 @@
       ],
       "name": "OpenAI-compatible",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#openai-compat@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#openai-compat@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -233,10 +233,10 @@
       ],
       "name": "Terminal UI",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#ratatui@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#ratatui@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -249,10 +249,10 @@
       ],
       "name": "Sub-agents",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#subagents@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#subagents@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -263,10 +263,10 @@
       "kinds": [],
       "name": "Theme",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#theme@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#theme@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -279,10 +279,10 @@
       ],
       "name": "Default views",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#views-default@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#views-default@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -297,10 +297,10 @@
       ],
       "name": "vLLM",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#vllm@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#vllm@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     },
     {
       "author": "kouji-dev",
@@ -311,10 +311,10 @@
       "kinds": [],
       "name": "Workflows",
       "repository": "https://github.com/kouji-dev/orrery",
-      "source": "github:kouji-dev/orrery-releases#workflows@0.2.3",
-      "version": "0.2.3",
+      "source": "github:kouji-dev/orrery-releases#workflows@0.3.1",
+      "version": "0.3.1",
       "added": "2026-11-02",
-      "updated": "2026-11-02"
+      "updated": "2026-11-04"
     }
   ]
 }
