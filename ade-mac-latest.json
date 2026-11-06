@@ -1,12 +1,12 @@
 {
-  "version": "0.26.0",
-  "notes": "- chore(ade): @getorrery/* 0.3.2\n- fix(ade): the update toast's gap and the dialog label row; specs follow the agent order\n- feat(release): the ADE releases for Windows from the owner's PC, Mac by hand on GitHub\n- feat(ade): the Monogram as the installed icon, with its own macOS master, and existing installs moved to it on first launch\n- chore(ade): @getorrery/* 0.3.1, and the harness range the ADE really supports\n- feat(ade): one platform layer, and the ADE as a Mac app (decisions 0001-0003)\n- docs(ade): platform layer and macOS: decisions 0001-0003, the plan, the Platforms page, keys on macOS\n- feat(ade): Add-ons, Orrery in spawn and Settings, searchable dropdowns, toasts, Cloud retries capped\n- feat(ade): Orrery as an agent, projects by last activity, local and remote branches, a faster start, a dev build apart from the release\n- chore: @getorrery/* from npm, no vendor/ copy",
-  "pub_date": "2026-11-04T21:23:20.252Z",
+  "version": "0.27.0",
+  "notes": "- chore: @getorrery/* 0.3.3\n- feat(ade): the new session flow offers Claude Code as a route\n- feat(ade): images in the built-in terminal, so the harness draws its real logo there\n- fix(ade): diffs are coloured again and open without the 3 s wait\n- feat(ade): the Monogram on the loading page, top bar and updater; the wordmark's O is the mark\n- feat(ade): the running app's icon follows the theme\n- feat(ade): GitHub Copilot CLI as a coding agent\n- fix(ade): the Mac top bar fits, and adapts to full screen\n- fix(release): Codemagic sets up Rust and pnpm on its Mac image [skip ci]\n- chore(release): the Codemagic secrets script does not belong in the repo [skip ci]\n- feat(release): the Mac build runs on Codemagic's free minutes [skip ci]",
+  "pub_date": "2026-11-06T13:00:25.892Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbE1PY1lBaHB5eFU2WHIweTNJMmgvQS9zWE54aWd3VTVNRGFtalZWMmFxcUtYbzQ3SEtCTnROOTlMUVVSVzJ5V3BWMmxKR1dOd0RuMGxBVlRkVk90ajNFRFEwZDBaeHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI3MzkyCWZpbGU6T3JyZXJ5LmFwcC50YXIuZ3oKLy9ac2tmdTFqOUNOYlFiWEIwTGlQYzJQc09HVElYeUwxZUpYSjNGang4Qk9abmJMOWNDYjhUNnYwRTZTVWpFdjQ1a0RuS1dRSG1OOGljVUx2dXhTQ0E9PQo=",
-      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.26.0/Orrery.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbE1PY1lBaHB5eFpYS2RYdTl1OU16YkhGcmZmcmtjd1d4T2hrZHlpOXZGazgrMDEyUGpVQkR4cWhPc3ZWRUhZQy9GSmlSU1ZoTWNFZmFGd3cvcGJKVzBUK1Nrd1RoekFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTcwMDE0CWZpbGU6T3JyZXJ5LmFwcC50YXIuZ3oKYVJPTGM2NVBvRkNWbysrak9aSExkWXNLK0o4TjVhZ0VvUnhXRWpPQzBqMG9XWURaNDdTZ0hmeHd4aWVvY2szTWNZK2lycHpPWHFVcDNYVkliNnloQ3c9PQo=",
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.27.0/Orrery.app.tar.gz"
     }
   },
-  "dmg": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.26.0/Orrery_0.26.0_aarch64.dmg"
+  "dmg": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.27.0/Orrery_0.27.0_aarch64.dmg"
 }
