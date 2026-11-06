@@ -1,5 +1,80 @@
 [
   {
+    "tag": "v0.27.0",
+    "channel": "beta",
+    "date": "November 6, 2026",
+    "ref": "64695dd",
+    "summary": "the new session flow offers Claude Code as a route",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "fa1c931",
+        "scope": "",
+        "msg": "@getorrery/* 0.3.3"
+      },
+      {
+        "type": "feat",
+        "hash": "abc2986",
+        "scope": "ade",
+        "msg": "the new session flow offers Claude Code as a route"
+      },
+      {
+        "type": "feat",
+        "hash": "47c377a",
+        "scope": "ade",
+        "msg": "images in the built-in terminal, so the harness draws its real logo there"
+      },
+      {
+        "type": "fix",
+        "hash": "bbd6fa3",
+        "scope": "ade",
+        "msg": "diffs are coloured again and open without the 3 s wait"
+      },
+      {
+        "type": "feat",
+        "hash": "f6ce7fb",
+        "scope": "ade",
+        "msg": "the Monogram on the loading page, top bar and updater; the wordmark's O is the mark"
+      },
+      {
+        "type": "feat",
+        "hash": "573892a",
+        "scope": "ade",
+        "msg": "the running app's icon follows the theme"
+      },
+      {
+        "type": "feat",
+        "hash": "d77cddd",
+        "scope": "ade",
+        "msg": "GitHub Copilot CLI as a coding agent"
+      },
+      {
+        "type": "fix",
+        "hash": "5c56040",
+        "scope": "ade",
+        "msg": "the Mac top bar fits, and adapts to full screen"
+      },
+      {
+        "type": "fix",
+        "hash": "93338a1",
+        "scope": "release",
+        "msg": "Codemagic sets up Rust and pnpm on its Mac image [skip ci]"
+      },
+      {
+        "type": "chore",
+        "hash": "09a9299",
+        "scope": "release",
+        "msg": "the Codemagic secrets script does not belong in the repo [skip ci]"
+      },
+      {
+        "type": "feat",
+        "hash": "b63608e",
+        "scope": "release",
+        "msg": "the Mac build runs on Codemagic's free minutes [skip ci]"
+      }
+    ]
+  },
+  {
     "tag": "v0.26.0",
     "channel": "beta",
     "date": "November 4, 2026",
