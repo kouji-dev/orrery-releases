@@ -1,5 +1,38 @@
 [
   {
+    "tag": "v0.27.1",
+    "channel": "beta",
+    "date": "November 7, 2026",
+    "ref": "226add2",
+    "summary": "the tray opens a menu of what needs you and quick actions, on Windows",
+    "commits": [
+      {
+        "type": "style",
+        "hash": "6e1371d",
+        "scope": "ade",
+        "msg": "the tray menu and the diff header take their kouji looks from @getorrery/styles 0.3.6"
+      },
+      {
+        "type": "chore",
+        "hash": "e5b19e7",
+        "scope": "",
+        "msg": "@getorrery/* 0.3.6"
+      },
+      {
+        "type": "feat",
+        "hash": "c3e6bc8",
+        "scope": "ade",
+        "msg": "the tray opens a menu of what needs you and quick actions, on Windows"
+      },
+      {
+        "type": "fix",
+        "hash": "b090fd3",
+        "scope": "ade",
+        "msg": "switching files never shows the old file, and the file changes view jumps to its changes"
+      }
+    ]
+  },
+  {
     "tag": "v0.27.0",
     "channel": "beta",
     "date": "November 6, 2026",
