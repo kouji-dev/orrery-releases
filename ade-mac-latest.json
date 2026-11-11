@@ -1,12 +1,12 @@
 {
-  "version": "0.27.1",
-  "notes": "- style(ade): the tray menu and the diff header take their kouji looks from @getorrery/styles 0.3.6\n- chore: @getorrery/* 0.3.6\n- feat(ade): the tray opens a menu of what needs you and quick actions, on Windows\n- fix(ade): switching files never shows the old file, and the file changes view jumps to its changes",
-  "pub_date": "2026-11-07T18:34:24.615Z",
+  "version": "0.28.0",
+  "notes": "- fix: follow @getorrery/* 0.4.0's file tree rows and catalog fixture\n- chore: @getorrery/* 0.4.0 (#14)\n- fix(ade): the tray panel opens down from the macOS menu bar with the Dock shown, and on every Space\n- feat(ade): the tray menu on macOS, through macos-private-api (plan step 10, not yet run on a Mac)\n- fix(ade): Ctrl+F opens Find only in the terminal it is pressed in, and reaches Monaco everywhere else\n- feat(ade): the changes list offers Open Diff and Open File, and keeps its folded folders across tab switches\n- feat(ade): the Tweaks chip is back in the status bar, beside Dev\n- feat(ade): folders above a changed file take its colour in the files tree, on a worktree and on a project's main checkout",
+  "pub_date": "2026-11-11T21:34:26.802Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbE1PY1lBaHB5eFhkRitsdnRYazhpdjFTOFdlMG5BQ25yUVpGSGo5M3FJa2RMTXhhTVFJT2h2TUY0OElRUDQyenZHb2JYdTZvZTZkRkE4cXJKL0c2UU9rajZMNkFGc3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDc2NDU4CWZpbGU6T3JyZXJ5LmFwcC50YXIuZ3oKbUFxYkZvNzcvTHBoaitQcjFiSlNrUjg4UmJib3FiM3c4aFEwQjBFalBSZDE2MFRQUjEzQVNWbW40Qjd3S2ZjM3FrVzYwSm9XYTV1VFVNYXJMQmlEQ3c9PQo=",
-      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.27.1/Orrery.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbE1PY1lBaHB5eGJsenBiOFZqZmVkakVtUDhqTTg5NXJZSmN1bm56RVc0eVkwcGI5cDFWZ3RwcFFkTWRodkVscnVXNGViTkk4VHpVaXR0d2h0Y2NIUFBxN3owcWhaR1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDMyODU5CWZpbGU6T3JyZXJ5LmFwcC50YXIuZ3oKZnVmMVhGeGs2RVJsZTVyZzNWMm5ESFhvejQ2UUpTa2kwb3gzTmY0OWhQdzkva2N6RmY0UEJKL3lVakFXT2tHS2dKc0t4K2t1TlZsc0F5SGk0YmN4QkE9PQo=",
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.28.0/Orrery.app.tar.gz"
     }
   },
-  "dmg": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.27.1/Orrery_0.27.1_aarch64.dmg"
+  "dmg": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.28.0/Orrery_0.28.0_aarch64.dmg"
 }
