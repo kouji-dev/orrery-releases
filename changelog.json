@@ -1,5 +1,62 @@
 [
   {
+    "tag": "v0.28.0",
+    "channel": "beta",
+    "date": "November 11, 2026",
+    "ref": "1613dec",
+    "summary": "the tray menu on macOS, through macos-private-api (plan step 10, not yet run on a Mac)",
+    "commits": [
+      {
+        "type": "fix",
+        "hash": "55d40ab",
+        "scope": "",
+        "msg": "follow @getorrery/* 0.4.0's file tree rows and catalog fixture"
+      },
+      {
+        "type": "chore",
+        "hash": "ba9ad9e",
+        "scope": "",
+        "msg": "@getorrery/* 0.4.0 (#14)"
+      },
+      {
+        "type": "fix",
+        "hash": "d1e169d",
+        "scope": "ade",
+        "msg": "the tray panel opens down from the macOS menu bar with the Dock shown, and on every Space"
+      },
+      {
+        "type": "feat",
+        "hash": "64be44d",
+        "scope": "ade",
+        "msg": "the tray menu on macOS, through macos-private-api (plan step 10, not yet run on a Mac)"
+      },
+      {
+        "type": "fix",
+        "hash": "09210a3",
+        "scope": "ade",
+        "msg": "Ctrl+F opens Find only in the terminal it is pressed in, and reaches Monaco everywhere else"
+      },
+      {
+        "type": "feat",
+        "hash": "89b8e36",
+        "scope": "ade",
+        "msg": "the changes list offers Open Diff and Open File, and keeps its folded folders across tab switches"
+      },
+      {
+        "type": "feat",
+        "hash": "a09bfae",
+        "scope": "ade",
+        "msg": "the Tweaks chip is back in the status bar, beside Dev"
+      },
+      {
+        "type": "feat",
+        "hash": "d3bfba8",
+        "scope": "ade",
+        "msg": "folders above a changed file take its colour in the files tree, on a worktree and on a project's main checkout"
+      }
+    ]
+  },
+  {
     "tag": "v0.27.1",
     "channel": "beta",
     "date": "November 7, 2026",
