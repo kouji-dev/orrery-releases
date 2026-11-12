@@ -1,5 +1,50 @@
 [
   {
+    "tag": "v0.28.1",
+    "channel": "beta",
+    "date": "November 12, 2026",
+    "ref": "43bf549",
+    "summary": "logs keep 2 MB a file and three older ones, and record panics, session starts and the shell PATH read",
+    "commits": [
+      {
+        "type": "test",
+        "hash": "e4a7fdb",
+        "scope": "ade",
+        "msg": "the chat's five-mount naming spec gets 60 s, it timed out when the whole suite ran"
+      },
+      {
+        "type": "feat",
+        "hash": "77c035c",
+        "scope": "ade",
+        "msg": "logs keep 2 MB a file and three older ones, and record panics, session starts and the shell PATH read"
+      },
+      {
+        "type": "fix",
+        "hash": "6d87e0d",
+        "scope": "ade",
+        "msg": "the Add-ons sidebar shows its two groups at once, and the Extensions subtitle is text again (decision 0009)"
+      },
+      {
+        "type": "fix",
+        "hash": "938ed0e",
+        "scope": "ade",
+        "msg": "a file opens in the pane the action came from, not the first pane of that agent (decision 0008)"
+      },
+      {
+        "type": "fix",
+        "hash": "6e24092",
+        "scope": "mac",
+        "msg": "agents get the shell's PATH under oh-my-zsh: the read stops at the value, waits 15 s, and is tried again"
+      },
+      {
+        "type": "fix",
+        "hash": "45e1233",
+        "scope": "mac",
+        "msg": "grammars load: library validation is off from the ad-hoc build on (decision 0007)"
+      }
+    ]
+  },
+  {
     "tag": "v0.28.0",
     "channel": "beta",
     "date": "November 11, 2026",
