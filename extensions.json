@@ -6,23 +6,23 @@
       "name": "ACP agents",
       "description": "Run agents such as Claude Code, Codex, Gemini CLI and Pi inside Orrery's chat.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#acp@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#acp@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [],
       "capabilities": [],
       "builtin": true,
       "added": "2026-11-11",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "agents",
       "name": "Agents",
       "description": "Agents written as Markdown files, each one a slash command, plus /agents to create and list them.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#agents@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#agents@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [],
       "capabilities": [
         "read",
@@ -30,32 +30,32 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "agents-default",
       "name": "Default agents",
       "description": "The planner, executor, verifier, compactor and summariser agents Orrery starts with.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#agents-default@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#agents-default@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "agents"
       ],
       "capabilities": [],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "anthropic",
       "name": "Anthropic",
       "description": "Claude models through the Anthropic Messages API, with tool use, prompt caching and usage.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#anthropic@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#anthropic@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -65,16 +65,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "builtin",
       "name": "Built-in tools",
       "description": "Read, write, edit, bash, grep and glob: the file and shell tools an agent works with.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#builtin@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#builtin@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "tools"
       ],
@@ -85,16 +85,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "claude-code",
       "name": "Claude Code (experimental)",
       "description": "Run Orrery's agent on your own Claude Code login; experimental, so it can break or change billing.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#claude-code@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#claude-code@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -103,16 +103,16 @@
       ],
       "builtin": true,
       "added": "2026-11-06",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "fixture",
       "name": "Fixture provider",
       "description": "Replays a recorded model stream from a file, for tests and demos with no API key.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#fixture@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#fixture@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -121,16 +121,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "gemini",
       "name": "Gemini",
       "description": "Google Gemini models through the native Gemini API, with one host and one key.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#gemini@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#gemini@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -140,16 +140,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "git",
       "name": "Git",
       "description": "Git status, diffs, commits and branches as agent tools, without a git install.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#git@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#git@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "tools"
       ],
@@ -160,16 +160,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "graders",
       "name": "Graders",
       "description": "Grade a run by a command, an assertion or a model, for evals and checks.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#graders@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#graders@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [],
       "capabilities": [
         "spawn",
@@ -177,16 +177,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "lsp",
       "name": "LSP",
       "description": "Hover, definitions, references and diagnostics from your language servers.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#lsp@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#lsp@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "tools"
       ],
@@ -196,16 +196,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "ollama",
       "name": "Ollama",
       "description": "Local models served by Ollama on this machine, with no key and no network.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#ollama@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#ollama@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -214,16 +214,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "openai",
       "name": "OpenAI",
       "description": "OpenAI models through the Responses API, with reasoning carried across turns.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#openai@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#openai@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -233,16 +233,16 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "openai-compat",
       "name": "OpenAI-compatible",
       "description": "Any OpenAI-compatible chat endpoint you point it at, local or hosted.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#openai-compat@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#openai-compat@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -252,78 +252,78 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "ratatui",
       "name": "Terminal UI",
       "description": "The default terminal interface: the conversation, prompts, panes and keys.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#ratatui@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#ratatui@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "client"
       ],
       "capabilities": [],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "subagents",
       "name": "Sub-agents",
       "description": "Lets an agent start sub-agents for parallel work, with limits on how many and how deep.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#subagents@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#subagents@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "tools"
       ],
       "capabilities": [],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "theme",
       "name": "Theme",
       "description": "Switch the colour theme with a command, and a worked example of shared state and actions.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#theme@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#theme@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [],
       "capabilities": [],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "views-default",
       "name": "Default views",
       "description": "How replies, tool calls, consent prompts and errors are shown in a session.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#views-default@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#views-default@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "ui"
       ],
       "capabilities": [],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "id": "vllm",
       "name": "vLLM",
       "description": "Models served by a local vLLM server, with no key and no other network.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#vllm@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#vllm@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [
         "provider"
       ],
@@ -332,21 +332,39 @@
       ],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
+    },
+    {
+      "id": "web",
+      "name": "Web",
+      "description": "Fetch a web page as text for the agent to read.",
+      "author": "kouji-dev",
+      "source": "github:kouji-dev/orrery-releases#web@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
+      "kinds": [
+        "tools"
+      ],
+      "capabilities": [
+        "net"
+      ],
+      "builtin": true,
+      "added": "2026-11-13",
+      "updated": "2026-11-13"
     },
     {
       "id": "workflows",
       "name": "Workflows",
       "description": "Multi-step workflows with parallel branches, checked for type errors before they run.",
       "author": "kouji-dev",
-      "source": "github:kouji-dev/orrery-releases#workflows@0.4.0",
-      "repository": "https://github.com/kouji-dev/orrery",
-      "version": "0.4.0",
+      "source": "github:kouji-dev/orrery-releases#workflows@0.5.0",
+      "repository": "https://github.com/kouji-dev/orrery-releases",
+      "version": "0.5.0",
       "kinds": [],
       "capabilities": [],
       "builtin": true,
       "added": "2026-11-02",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     }
   ]
 }
