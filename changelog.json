@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.29.0",
+    "channel": "beta",
+    "date": "November 13, 2026",
+    "ref": "03f4c09",
+    "summary": "the 2026-11 audit, worked through: terminals, memory, git backends, pull requests, safety",
+    "commits": [
+      {
+        "type": "chore",
+        "hash": "046857e",
+        "scope": "",
+        "msg": "@getorrery/* 0.5.0"
+      },
+      {
+        "type": "feat",
+        "hash": "5151487",
+        "scope": "ade",
+        "msg": "the 2026-11 audit, worked through: terminals, memory, git backends, pull requests, safety"
+      }
+    ]
+  },
+  {
     "tag": "v0.28.1",
     "channel": "beta",
     "date": "November 12, 2026",
