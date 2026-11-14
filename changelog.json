@@ -1,5 +1,26 @@
 [
   {
+    "tag": "v0.29.1",
+    "channel": "beta",
+    "date": "November 14, 2026",
+    "ref": "105e351",
+    "summary": "one updater for Windows and macOS: the app closes, the update window downloads, installs and reopens it (decision 0019)",
+    "commits": [
+      {
+        "type": "test",
+        "hash": "353e269",
+        "scope": "ade",
+        "msg": "the tokenized-styles scan gets 60 s, it timed out when the whole suite ran"
+      },
+      {
+        "type": "feat",
+        "hash": "c92b391",
+        "scope": "ade",
+        "msg": "one updater for Windows and macOS: the app closes, the update window downloads, installs and reopens it (decision 0019)"
+      }
+    ]
+  },
+  {
     "tag": "v0.29.0",
     "channel": "beta",
     "date": "November 13, 2026",
