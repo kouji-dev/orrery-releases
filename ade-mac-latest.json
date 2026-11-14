@@ -1,12 +1,12 @@
 {
-  "version": "0.28.1",
-  "notes": "- test(ade): the chat's five-mount naming spec gets 60 s, it timed out when the whole suite ran\n- feat(ade): logs keep 2 MB a file and three older ones, and record panics, session starts and the shell PATH read\n- fix(ade): the Add-ons sidebar shows its two groups at once, and the Extensions subtitle is text again (decision 0009)\n- fix(ade): a file opens in the pane the action came from, not the first pane of that agent (decision 0008)\n- fix(mac): agents get the shell's PATH under oh-my-zsh: the read stops at the value, waits 15 s, and is tried again\n- fix(mac): grammars load: library validation is off from the ad-hoc build on (decision 0007)",
-  "pub_date": "2026-11-12T22:13:01.564Z",
+  "version": "0.29.1",
+  "notes": "- test(ade): the tokenized-styles scan gets 60 s, it timed out when the whole suite ran\n- feat(ade): one updater for Windows and macOS: the app closes, the update window downloads, installs and reopens it (decision 0019)",
+  "pub_date": "2026-11-14T17:24:41.627Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbE1PY1lBaHB5eGVCaTBPVzBnakFWMnpRSEMrL2oxT2FXdm9WMkdUZEZ2Qk5VNEtKZ1ZQSnBJcTJXamZVTFBabWhKNkNsRjk0ejYwT3NJMXVJNjBqdy8ycnZveXNJMndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTIxNTc0CWZpbGU6T3JyZXJ5LmFwcC50YXIuZ3oKUS9JR3pmV3VMdjEyUEk3a1pVazN1R0d1aHpOM3JJdlFTdGlkVkdCWGtOTmhjakQzNW9hWWIxUFE5SmlQV0NwOGYyWmFYZDl4TjhPSDRyNjlNZlE3QXc9PQo=",
-      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.28.1/Orrery.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUbE1PY1lBaHB5eFNmLzcyY2VGcThTbmszZkZpUUlaRDVsWVBwU0hndTAyVExTUGduNE4vTGNxd0h3ditBLyt1aElmS2NmYXVZRGlEZy9hdWdRRzlJSUJhVisrbHBBc0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Njc3MDczCWZpbGU6T3JyZXJ5LmFwcC50YXIuZ3oKcnlZaWttMUVYS0owVlJEWmFZcDNoOWVwb1lQMm5KNGhGdDc2cS8rL2ZUQUViOXVpU3JTeGxPdHo1MTc0cEdrYTVzSEtUZkdpTGZFSkdtWGN6czUwQlE9PQo=",
+      "url": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.29.1/Orrery.app.tar.gz"
     }
   },
-  "dmg": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.28.1/Orrery_0.28.1_aarch64.dmg"
+  "dmg": "https://github.com/kouji-dev/orrery-releases/releases/download/v0.29.1/Orrery_0.29.1_aarch64.dmg"
 }
